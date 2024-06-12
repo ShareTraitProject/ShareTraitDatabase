@@ -71,10 +71,10 @@ yes,strategy_of_protection,individual.strategy_of_protection
 yes,sex,individual.individual_sex
 yes,life_stage_general_initial,trait.life_stage_initial
 yes,life_stage_general_final,trait.life_stage_final
-yes,life_stage_specific_initial,life_stage_specific_initial
-yes,life_stage_specific_final,life_stage_specific_final
-yes,life_stage_general,life_stage_general
-yes,life_stage_specific,life_stage_specific
+yes,life_stage_specific_initial,measure.life_stage_specific_initial
+yes,life_stage_specific_final,measure.life_stage_specific_final
+yes,life_stage_general,measure.life_stage_general
+yes,life_stage_specific,measure.life_stage_specific
 yes,size_type,measure.size_type
 yes,size_units,measure.size_unit
 yes,size_value_initial,measure.size_value_initial
