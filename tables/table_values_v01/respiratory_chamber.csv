@@ -1,0 +1,3 @@
+technique_pk,sensory_type,respiration_volume,delay_time,respiratory_chamber_material,metabolic_rate_type,incubation_time,respirometry_type,breathing_mode
+TRATEC001,fiber optic-based oxygen analyzer,5000,NA,plastic,,6,closed,aquatic
+TRATEC002,fiber optic-based oxygen analyzer,50,NA,polypropylene,,NA,closed,bimodal

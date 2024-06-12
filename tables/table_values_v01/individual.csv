@@ -1,0 +1,73 @@
+individual_pk,individual_id,representative_stage,individual_sex,individual_type,individual_parentpk,parent_id,parent_size_value,parent_size_unit,parent_size_type,parent_age,parent_age_unit,parent_sex,mating_method,method_type,fecundity_temporal_unit,reproductive_stage,strategy_of_protection,description_individual,comment
+TRAIND001,ind24,egg,female,,,,,,,,,,,,,,,,part of dataset7
+TRAIND002,ind45,egg,female,,,,,,,,,,,,,,,,part of dataset7
+TRAIND003,ind001,tadpole,,,,,,,,,,,,,,,,,part of dataset4
+TRAIND004,ind002,,,,,,,,,,,,,,,,,,part of dataset4
+TRAIND005,ind43,,,,,,,,,,,,,,,,,,part of dataset4
+TRAIND006,ST4,,,,,,,,,,,,,,,,,,part of dataset2
+TRAIND007,ST6,,,,,,,,,,,,,,,,,,part of dataset2
+TRAIND008,off001,offspring representative,,,,Parent01,0.1657,milligram,fresh body mass,24,hours,female,,,,,,,part of dataset14
+TRAIND009,off002,offspring representative,,,,,0.203,milligram,fresh body mass,24,hours,female,,,,,,,part of dataset14
+TRAIND010,set100,offspring representative,,,,,9.1,millimeter,cephalothorax length,,,female,,,,,,,part of dataset15
+TRAIND011,offspringset101,offspring representative,,,,,11.6,millimeter,cephalothorax length,,,female,,,,,,,part of dataset15
+TRAIND012,mr001,,,,,,,,,,,,,,,,,,part of dataset 26
+TRAIND013,mr002,,,,,,,,,,,,,,,,,,part of dataset 26
+TRAIND014,met01,adult,,,,,,,,,,female,,,,,,,part of dataset 27
+TRAIND015,met02,adult,,,,,,,,,,female,,,,,,,part of dataset 27
+TRAIND016,metrate01,juvenile,,,TRAIND008,,,,,,,,,,,,,,part of dataset 28
+TRAIND017,metrate200,juvenile,,,TRAIND008,,,,,,,,,,,,,,testing parenting
+TRAIND018,metrate200,juvenile,,,,,,,,,,,,,,,,,testing parenting
+TRAIND019,pop1,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND020,pop2,adult,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND021,pop3,adult,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND022,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND023,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND024,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND025,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND026,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND027,,egg,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND028,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND029,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND030,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND031,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND032,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND033,,tadpole,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND034,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND035,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND036,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND037,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND038,,larva,female,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND039,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND040,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND041,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND042,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND043,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND044,,egg,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND045,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND046,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND047,,larva,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND048,,embryo,,,,,,,,,,,,,,,,,more atttibutes required
+TRAIND049,,embryo,,,,,,,,,,,,,,,,,
+TRAIND050,,embryo,,,,,,,,,,,,,,,,,
+TRAIND051,,,,,,,,,,,,,,,,,,,
+TRAIND052,,,,,,,,,,,,,,,,,,,
+TRAIND053,,,,,,,,,,,,,,,,,,,
+TRAIND054,,,,,,,,,,,,,,,,,,,
+TRAIND055,,,,,,,,,,,,,,,,,,,
+TRAIND056,,,,,,,,,,,,,,,,,,,
+TRAIND057,,,,,,,,,,,,,,,,,,,
+TRAIND058,,,,,,,,,,,,,,,,,,,
+TRAIND059,,,,,,,,,,,,,,,,,,,
+TRAIND060,,,,,,,,,,,,,,,,,,,
+TRAIND061,,,,,,,,,,,,,,,,,,,
+TRAIND062,,,,,,,,,,,,,,,,,,,
+TRAIND063,,,,,,,,,,,,,,,,,,,
+TRAIND064,,,,,,,,,,,,,,,,,,,
+TRAIND065,,,,,,,,,,,,,,,,,,,
+TRAIND066,,,,,,,,,,,,,,,,,,,
+TRAIND067,,,,,,,,,,,,,,,,,,,
+TRAIND068,,,,,,,,,,,,,,,,,,,
+TRAIND069,,,,,,,,,,,,,,,,,,,
+TRAIND070,,,,,,,,,,,,,,,,,,,
+TRAIND071,,,,,,,,,,,,,,,,,,,
+TRAIND072,,,,,,,,,,,,,,,,,,,

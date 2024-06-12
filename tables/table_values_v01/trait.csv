@@ -1,0 +1,27 @@
+trait_pk,trait_name,trait_id,trait_type,trait_condition,trait_parentid,life_stage_initial,life_stage_final,trait_definition,trait_definition_source,trait_unit
+TRATRA001,development time,DEVTIME,development,development time = age at stage 2 - age at stage 1,,,,the time necessary to transition from one life stage (stage 1; e.g. egg) to the next (stage 2; e.g. adult).,wilco,day
+TRATRA002,development rate,DEVTRA,development,development rate = 1 / development time,DEVTIME,,,development rate = 1 / development time,wilco,1/day
+TRATRA003,development time egg to adult,DEVEGAD,development,development time = age at stage 2 - age at stage 1,DEVTIME,egg,adult,the time in days to transition from an egg stage to an adult stage,irene,day
+TRATRA004,development time embryo to adult,DEVEMAD,development,development time = age at stage 2 - age at stage 1,DEVTIME,embryo,adult,the time necessary in days to transition from the embryo stage to an adult stage,irene,day
+TRATRA005,development time embryo to larva,DEVEMLA,development,development time = age at stage 2 - age at stage 1,DEVTIME,embryo ,larva,the time necessary to transition from an embryo stage to a larva stage,irene,day
+TRATRA006,development time hatching to metamorphosis,DEVHAME,development,development time = age at stage 2 - age at stage 1,DEVTIME,hatching,metamorphosis,the time necessary to transition from the hatching stage to the metamorphosis stabe,irene,day
+TRATRA007,development time embryo to postlarva,DEVEMPL,development,development time = age at stage 2 - age at stage 1,DEVTIME,embryo,postlarva ,the time necessary to transition from an embryo stage to the postlarva stage,irene,day
+TRATRA008,total length,TOL,morphology,,,,,total length of the adult head to the tip of the tail,irene,
+TRATRA009,body width,BW,morphology,,,,,,,
+TRATRA010,body size,BS,morphology,,,,,,,
+TRATRA011,development time lymph to adult,DEVLYAD,development,development time = age at stage 2 - age at stage 1,DEVTIME,nymph,adult,,irene,day
+TRATRA012,development time larva to  adult,DEVLAAD,development,development time = age at stage 2 - age at stage 1,DEVTIME,larva,adult,,irene,
+TRATRA013,development time tadpole stage 1 to tadpole stage 2,DEVTATA,development,development time = age at stage 2 - age at stage 1,DEVTIME,tadpole,tadpole,,irene,day
+TRATRA014,development time tadpole Gosner stage 25 to Gosner stage 26,DEVTAGO,development,development time = age at stage 2 - age at stage 1,DEVTATA,tadpole Gosner stage 25,tadpole Gosner stage 25,,irene,day
+TRATRA015,development time tadpole Gosner stage 25 to Gosner stage 26,,development,,,,,,irene,
+TRATRA016,development time tadpole Gosner stage 25 to Gosner stage 27,,development,,,,,,irene,
+TRATRA017,development time tadpole Gosner stage 25 to Gosner stage 31,,development,,,,,,irene,
+TRATRA018,development time tadpole Gosner stage 25 to Gosner stage 34,,development,,,,,,irene,
+TRATRA019,development time tadpole to metamorphosis,DEVTAME,development,development time = age at stage 2 - age at stage 1,,tadpole,metamorphosis,,irene,day
+TRATRA020,development time tadpole Gosner stage 25 to Gosner stage 42,DEVTAME,development,development time = age at stage 2 - age at stage 1,,tadpole Gosner stage 25,metamorphosis,,irene,day
+TRATRA021,development time egg laying to adult hatching from the post pupae ,DEVEGAH,development,development time = age at stage 2 - age at stage 1,DEVEGAD,egg laying,adult hatching from the host pupae,,irene,day
+TRATRA022,development time from adult stage 1 to adult stage 2,DEVADAD,development,development time = age at stage 2 - age at stage 1,DEVTIME,adult,adult  ,,irene,day
+TRATRA023,development time from adult undefined to first adult hatching from the batch,DEVADAH,development,development time = age at stage 2 - age at stage 1,DEVADAD,adult,first adult hatching from the batch,,irene,day
+TRATRA024,development time from embryo stage 1 to embryo stage 2,DEVEMEM,development,development time = age at stage 2 - age at stage 1,,embryo,embryo,,irene,day
+TRATRA025,number of offspring,FECOFF,fecundity,"this can be expressed either in units (number of eggs, number of egg clutches), and (preferably also) in terms in mass (mass of one egg x number of eggs in a clutch x number of clutches) and may require some time period to be specified (annual reproductive investment or lifetime reproductive investment)",,,,the amount of reproductive investment,wilco,
+TRATRA026,amount if energy expended per time unit,METRATE,metabolic_rate,Frequently measured as rate of oxygen uptake or rate of CO2 production.,,,,,wilco,moles of Oxygen/Carbondioxide per time unit
