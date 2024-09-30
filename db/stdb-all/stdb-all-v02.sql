@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS acclimation_specification (
 DROP TABLE IF EXISTS chamber_describe;
 
 CREATE TABLE IF NOT EXISTS chamber_describe (
-    measurement_pk VARCHAR (30),
-    technique_pk   VARCHAR (30),
+    measurement_pk VARCHAR (30) NOT NULL,
+    technique_pk   VARCHAR (30) NOT NULL,
     PRIMARY KEY (
         measurement_pk,
         technique_pk
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS chamber_describe (
     FOREIGN KEY (
         measurement_pk
     )
-    REFERENCES measure (measurement_pk),
+    REFERENCES measurement (measurement_pk),
     FOREIGN KEY (
         technique_pk
     )
@@ -115,8 +115,8 @@ CREATE TABLE IF NOT EXISTS dataset (
 DROP TABLE IF EXISTS describe;
 
 CREATE TABLE IF NOT EXISTS describe (
-    dataset_pk    VARCHAR (30),
-    population_pk VARCHAR (30),
+    dataset_pk    VARCHAR (30) NOT NULL,
+    population_pk VARCHAR (30) NOT NULL,
     date_describe TEXT,
     date_iso      TEXT,
     year          INT,
@@ -139,8 +139,8 @@ CREATE TABLE IF NOT EXISTS describe (
 DROP TABLE IF EXISTS experiment_setup;
 
 CREATE TABLE IF NOT EXISTS experiment_setup (
-    measurement_pk      VARCHAR (30),
-    condition_pk        VARCHAR (30),
+    measurement_pk      VARCHAR (30) NOT NULL,
+    condition_pk        VARCHAR (30) NOT NULL,
     condition_type      VARCHAR (30),
     setup_date          TEXT,
     experiment_location TEXT,
@@ -151,7 +151,7 @@ CREATE TABLE IF NOT EXISTS experiment_setup (
     FOREIGN KEY (
         measurement_pk
     )
-    REFERENCES measure (measurement_pk),
+    REFERENCES measurement (measurement_pk),
     FOREIGN KEY (
         condition_pk
     )
@@ -191,8 +191,8 @@ CREATE TABLE IF NOT EXISTS individual (
 DROP TABLE IF EXISTS located_in;
 
 CREATE TABLE IF NOT EXISTS located_in (
-    site_pk              VARCHAR (30),
-    place_pk             VARCHAR (30),
+    site_pk              VARCHAR (30) NOT NULL,
+    place_pk             VARCHAR (30) NOT NULL,
     latitude_decimal     DECIMAL (8, 4),
     longitude_decimal    DECIMAL (8, 4),
     location_description TEXT,
@@ -230,9 +230,9 @@ CREATE TABLE IF NOT EXISTS manuscript (
 
 
 -- Table: measure
-DROP TABLE IF EXISTS measure;
+DROP TABLE IF EXISTS measurement;
 
-CREATE TABLE IF NOT EXISTS measure (
+CREATE TABLE IF NOT EXISTS measurement (
     measurement_pk                 VARCHAR (30)   PRIMARY KEY
                                                   NOT NULL,
     individual_pk                  VARCHAR (30),
@@ -274,8 +274,8 @@ CREATE TABLE IF NOT EXISTS measure (
 DROP TABLE IF EXISTS occurrence;
 
 CREATE TABLE IF NOT EXISTS occurrence (
-    population_pk           VARCHAR (30),
-    site_pk                 VARCHAR (30),
+    population_pk           VARCHAR (30) NOT NULL,
+    site_pk                 VARCHAR (30) NOT NULL,
     observation_date        VARCHAR (30),
     date_iso_initial        VARCHAR (30),
     date_iso_final          VARCHAR (30),
@@ -330,8 +330,8 @@ CREATE TABLE IF NOT EXISTS population (
 DROP TABLE IF EXISTS publication;
 
 CREATE TABLE IF NOT EXISTS publication (
-    dataset_pk    VARCHAR (30),
-    manuscript_pk VARCHAR (30),
+    dataset_pk    VARCHAR (30) NOT NULL,
+    manuscript_pk VARCHAR (30) NOT NULL,
     PRIMARY KEY (
         dataset_pk,
         manuscript_pk
@@ -411,8 +411,8 @@ CREATE TABLE IF NOT EXISTS site (
 DROP TABLE IF EXISTS taxonomic_label;
 
 CREATE TABLE IF NOT EXISTS taxonomic_label (
-    taxonomy_pk      VARCHAR (30),
-    population_pk    VARCHAR (30),
+    taxonomy_pk      VARCHAR (30) NOT NULL,
+    population_pk    VARCHAR (30) NOT NULL,
     name_date        TEXT,
     reference_source TEXT,
     version_taxa     TEXT,
