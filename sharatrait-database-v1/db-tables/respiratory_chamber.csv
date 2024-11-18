@@ -1,0 +1,29 @@
+technique_pk,sensor_type,respiration_volume,delay_time,respiratory_chamber_material,incubation_time,respirometry_type,breathing_mode,metabolic_rate_type
+TRATEC000001,fiber optic-based oxygen analyzer,27,,,,closed,aquatic,standard
+TRATEC000622,infrared CO2 analyzer Li-6251_LI-COR,20,,glass,0.17,open,aerial,routine
+TRATEC001369,fiber optic-based oxygen analyzer,0.69,2.0,acrylic/Plexiglas,,intermittent flow-through,aquatic,standard
+TRATEC001370,fiber optic-based oxygen analyzer,1.96,2.0,acrylic/Plexiglas,,intermittent flow-through,aquatic,standard
+TRATEC001585,fiber optic-based oxygen analyzer,693,2.0,acrylic/Plexiglas,,intermittent flow-through,aquatic,standard
+TRATEC001669,oxygen electrode,286,,glass,3,closed,aquatic,standard
+TRATEC001672,oxygen electrode,285,,glass,3,closed,aquatic,standard
+TRATEC001674,oxygen electrode,281,,glass,3,closed,aquatic,standard
+TRATEC001689,zirconia-based oxygen analyzer,210,,acrylic/Plexiglas,1,intermittent flow-through,aerial,standard
+TRATEC001808,fluorescence-based oxygen analyzer,0.2,0.3,glass,,closed,aquatic,routine
+TRATEC002230,carbon dioxide analyzer,30,0.001,glass,2.05,intermittent flow-through,aerial,resting
+TRATEC002394,fiber optic-based oxygen analyzer,5000,,plastic,6,closed,aquatic,standard
+TRATEC002424,fiber optic-based oxygen analyzer,1000,,glass,2,closed,aquatic,standard
+TRATEC003585,fiber optic-based oxygen analyzer,6,,plastic,5,closed,aquatic,standard
+TRATEC003735,fiber optic-based oxygen analyzer,10,,plastic,3,closed,aquatic,standard
+TRATEC003881,fiber optic-based oxygen analyzer,250,,glass,3,closed,aquatic,standard
+TRATEC004024,fiber optic-based oxygen analyzer,1000,,glass,3,closed,aquatic,standard
+TRATEC004173,infrared-based carbon dioxide analyzer,1.4,,ethyl vinyl acetate,0.25,open,aerial,routine
+TRATEC004308,oxygen electrode,6,3.0,glass,3,open,aquatic,standard
+TRATEC004683,fiber optic-based oxygen analyzer,15.49,,glass,1,intermittent flow-through,aquatic,standard
+TRATEC004743,fiber optic-based oxygen analyzer,12.4,,glass,1,intermittent flow-through,aquatic,standard
+TRATEC005341,fiber optic-based oxygen analyzer,50,,polypropylene,,closed,bimodal,standard
+TRATEC005413,fiber optic-based oxygen analyzer,8.8,,glass,,closed,aquatic,standard
+TRATEC005456,infrared-based carbon dioxide analyzer,,,plastic,1,open,aerial,resting
+TRATEC005551,infrared-based carbon dioxide analyzer,50,,glass,1,open,aerial,active
+TRATEC005561,infrared-based carbon dioxide analyzer,300,,glass,1,open,aerial,resting
+TRATEC005651,infrared-based carbon dioxide analyzer,500,,glass,1,open,aerial,active
+TRATEC005728,fiber optic-based oxygen analyzer,27,2.0,plastic,0.5,intermittent flow-through,aquatic,standard

@@ -1,0 +1,38 @@
+place_pk,place_name,location_name,location_label,country_name,continent_name,geoname_countryid
+TRAPLA001,,Chillan_Chile,term-based,Chile,South America,3895114
+TRAPLA002,,Talca_Chile,term-based,Chile,South America,3895114
+TRAPLA003,,Temuco_Chile,term-based,Chile,South America,3895114
+TRAPLA004,,Rancagua_Chile,term-based,Chile,South America,3895114
+TRAPLA005,,Pinto_Chile,term-based,Chile,South America,3895114
+TRAPLA006,,Valsbrunna,gps-based,Sweden,Europe,2661886
+TRAPLA007,,San_Fernando_Chile,term-based,Chile,South America,3895114
+TRAPLA008,,Valdivia_Chile,term-based,Chile,South America,3895114
+TRAPLA036,,Antwerp,gps-based,Belgium,Europe,2802361
+TRAPLA009,,Belforet-en-Perche,gps-based,France,Europe,3017382
+TRAPLA037,,Ede,gps-based,The Netherlands,Europe,2750405
+TRAPLA010,,"Valdivia, Los Ríos",gps-based,Chile,South America,3895114
+TRAPLA011,,Seno Magdalena_Chile,term-based,Chile,South America,3895114
+TRAPLA012,,West off Quellon_Chile,term-based,Chile,South America,3895114
+TRAPLA013,,Oeste Cucao_Chile,term-based,Chile,South America,3895114
+TRAPLA014,,Mitad Sur Oeste Chiloe y Guafo_Chile,term-based,Chile,South America,3895114
+TRAPLA015,,Canal Darwin e Isla Dring_Chile,term-based,Chile,South America,3895114
+TRAPLA016,,Weste Isla Liebre e Isla Kent_Chile,term-based,Chile,South America,3895114
+TRAPLA017,,West off Isla Ipun_Chile,term-based,Chile,South America,3895114
+TRAPLA018,,Chauques_Chile,term-based,Chile,South America,3895114
+TRAPLA019,,Oeste Metalqui_Chile,term-based,Chile,South America,3895114
+TRAPLA020,,Estero Butan_Chile,term-based,Chile,South America,3895114
+TRAPLA021,,Mitad sur Oeste Chiloe y Gua_Chile,term-based,Chile,South America,3895114
+TRAPLA022,,oeste metalqui,term-based,Chile,South America,3895114
+TRAPLA023,,Aysen_Chile,term-based,Chile,South America,3895114
+TRAPLA024,,Oeste Metalqui,term-based,Chile,South America,3895114
+TRAPLA025,,Los Lagos_oceanicas_Chile,term-based,Chile,South America,3895114
+TRAPLA026,,Gelderland,gps-based,The Netherlands,Europe,2750405
+TRAPLA027,,Puerto Montt,gps-based,Chile,South America,3895114
+TRAPLA028,,"Puerto Montt, Los Lagos, Chile",gps-based,Chile,South America,3895114
+TRAPLA029,,Quarantia_Italy,term-based,Italy,Europe,3175395
+TRAPLA030,,Lesina_Italy,term-based,Italy,Europe,3175395
+TRAPLA031,,Acquatina_Italy,term-based,Italy,Europe,3175395
+TRAPLA032,,Bridgwater,gps-based,United Kingdom,Europe,2635167
+TRAPLA033,,Okehampton,gps-based,United Kingdom,Europe,2635167
+TRAPLA034,,Western Australia,comment-based,Australia,Oceania,2077456
+TRAPLA035,,Southeast Queensland_Australia,comment-based,Australia,Oceania,2077456
