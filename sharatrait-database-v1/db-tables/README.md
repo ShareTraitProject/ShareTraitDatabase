@@ -12,7 +12,7 @@ The tables are provided in a csv format and map to the table template names of [
 *please note that all reference links belong to the sharetrait-database-v1 folder of this repo.*
 - all db-table names and descriptions can be found in [ShareTrait-database-attributes-definition.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) of the documentation folder
 
-- definition of headers in ShareTrait-database-attributes-definition.csv
+### definition of headers in ShareTrait-database-attributes-definition.csv file
   
 | column_name | column_definition |
 | :--- | --- |
@@ -26,4 +26,10 @@ The tables are provided in a csv format and map to the table template names of [
 | sharetrait_dataset_col_name | reference to column_name of sharetrait dataset as referenced in [ShareTrait_MetaData_v1.0.0.csv](https://github.com/ShareTraitProject/ShareTrait/blob/main/ShareTrait_DB/v1.0.0/3_release/ShareTrait_MetaData_v1.0.0.csv) |
 | example_value | actual possible value type that can exist in sharetrait database version 1.0.0 |
 
-- append definition of other files
+### definition of headers in ShareTrait-database-overview.csv
+
+| column_name | column_definition |
+| :--- | --- |
+| table | table reference internal id used to map to [ShareTrait-attributes-definition.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) |
+| table | table reference internal id used to map to [ShareTrait-attributes-definition.csv] |
+
