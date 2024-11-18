@@ -1,0 +1,22 @@
+table,table name,attribute count (with pks/fks),number of records
+table1,dataset,16,45
+table2,manuscript,9,35
+table3,publication,2,43
+table4,describe,5,85
+table5,population,8,85
+table6,contains,2,28692
+table7,individual,21,28692
+table8,measurement,29,28692
+table9,trait,13,14
+table10,ref_taxonomy,17,36
+table11,taxonomic_label,5,85
+table12,site,8,76
+table13,occurrence,8,85
+table14,place,7,37
+table15,located_in,6,53
+table16,respiratory_chamber,9,28
+table17,chamber_describe,3,6505
+table18,acclimation_specification,5,11
+table19,acclimation_describe,3,4427
+table20,condition,14,287
+table21,experiment_setup,5,57322
