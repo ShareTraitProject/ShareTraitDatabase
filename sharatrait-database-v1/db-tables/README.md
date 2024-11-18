@@ -12,3 +12,5 @@ The tables are provided in a csv format and map to the table template names of [
 *please note that all reference links belong to the sharetrait-database-v1 folder of this repo.*
 - all db-table names and descriptions can be found in [ShareTrait-database-attributes-definition.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) of the documentation folder
 
+## template for generating the table templates 
+
