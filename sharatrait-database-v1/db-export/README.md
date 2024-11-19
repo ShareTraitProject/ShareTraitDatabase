@@ -23,6 +23,8 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
 3. Use database version 1.0 
 
    - Once you have imported the database in Studio, it can be viewed on the left window section containing the database Name List. Click on the name you recognise once. This will then allow to display the complete list of tables populated and ready to be used. This list of tables correspond to the complete table list in csv format provided in [db-tables](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-tables) folder.
+   - You can click on each of the table to explore **Structure** of the table, **Data**, the values contained in the table, **Constraints**, **Indexes** and **Triggers** for technical set of rules in relation to the database and **DDL**, the data definition language commands used by SQL for creating and using commands with database objects.
+     Please take a look at the well documented available manual on github for [SQLiteStudio User Manual](https://github.com/pawelsalawa/sqlitestudio/wiki/User_Manual).
 
 
 Store it in a local folder. 
