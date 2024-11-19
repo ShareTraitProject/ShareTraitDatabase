@@ -14,7 +14,8 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
 ## sqlitestudio
 
 1. Download
-   - Go to the folder db-export [database-version1.0](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-export/ST_all.db) and download ShareTrait database version.
+   - Go to the folder [db-export](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-export/) and download the ShareTrait (ST) database version 1.0 **ST_all.db**. The download icon is found on the top left corner of the raw data window, labelled as *Download raw file*. This option will download your databse (.db) file in the local Download folder. Please store this file in a home folder. Keep track of the path of that folder.
+   - Download SQLiteStudio via the [download page](https://sqlitestudio.pl). This page contains the versions and applications that run on Windows, Linux and Mac operating systems. The SQLiteStudio is made easy and friendly and it only needs to click and run, without the need of configuring and installing it
 
 
 Store it in a local folder. 
