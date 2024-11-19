@@ -1,14 +1,14 @@
 # documentation folder for sharetrait database version 1.0.0
 
 name of folder: db-documentation
-folder type: informative documents 
+folder type: informative documents and diagrams for sharetrait database 
 
 ## folder description
 
 This folder contains information about the definition and description of the components of the database.
 The components refer to the tables and field characteristics of the tables constituting the ShareTrait DataBase version 1.0.0
 
-## file list of db-documentation folder
+## file list name and description for the db-documentation folder
 
 | file_name | format | file_description |
 | :--- | --- | :--- |
@@ -18,7 +18,7 @@ The components refer to the tables and field characteristics of the tables const
 | ShareTrait-database-tables-overview.csv | csv | information regarding the amount of attributes and records for each database table |
 | ShareTrait-dataset-database-mapping.csv | csv | [sharetrait dataset](https://github.com/ShareTraitProject/ShareTrait/blob/main/ShareTrait_DB/v1.0.0/3_release/ShareTrait_MetaData_v1.0.0.csv) attribute mapping to the sharetrait database v1.0.0 attributes |
 
-### definition of headers in sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv file
+### definition of headers in file sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv
   
 | column_name | column_definition |
 | :--- | --- |
@@ -47,6 +47,10 @@ The components refer to the tables and field characteristics of the tables const
 | :--- | --- |
 | sharetrait_dataset_col_name | this column name is the reference to [sharetrait dataset metadata definition csv](https://github.com/ShareTraitProject/ShareTrait/blob/main/ShareTrait_DB/v1.0.0/3_release/ShareTrait_MetaData_v1.0.0.csv) header label |
 | sharetrait db attribute | this column name refers to the attribute label as defined in [sharetrait database attribute](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) header attribute label |
+
+### definition of annotation used in sharatrait-database-v1/db-documentation/ShareTrait-database-schema-v1.png
+
+the annotations and constraints provided in the schema refer to the complete documentation description in ShareTrait-database-documentation-v20241108.pdf
 
 
 
