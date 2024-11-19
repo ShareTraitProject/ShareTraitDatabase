@@ -3,13 +3,11 @@
 ## options for using ShareTrait db
 
 ShareTrait (ST) database is a SQLite 3 version and in this document we provide ways for you to use the database names ST_all.db version 1.0. 
-The first option is by importing the current version in a [SQLiteStudio](https://sqlitestudio.pl/about/), a friendly desktop application for browsing and editing SQLite database files. 
+The first option is by importing the current version in a [SQLiteStudio](https://sqlitestudio.pl/about/), a friendly desktop application for browsing and editing SQLite database files. Another option, whch can be also be used simuntaneosly with SQLite, but also on its own, is to use SQLite locally on a terminal, without the use of a management tool. 
 
-# How to access the db 
-1. [by using SQLiteStudio](#sqlitestudio)
-2. [other](#other)
-
-
+# How to access and use the db 
+1. [SQLiteStudio](#sqlitestudio)
+2. [SQLite](#sqlite)
 
 ## sqlitestudio
 
@@ -29,11 +27,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
      Very useful is the **Tool** **SQL Editor**, in which you can write and execute your own queries and display the outputs directly on the Data display. More information on how to select the SQL editor can be found here: [executing sql queries](https://github.com/pawelsalawa/sqlitestudio/wiki/User_Manual#executing-sql-queries)
 
 
-Store it in a local folder. 
-   - SQLiteStudio can be downloaded for 
-
-3. Open
 
    
-## other
+## sqlite
 
