@@ -36,10 +36,29 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    - Download [SQLite](https://www.sqlite.org/download.html). Make sure you download the version for your operating system. You can also follow these commands for installing SQLite on Windows, MacOS and Ubuntu [How to Install SQLite on Your Machine (Windows, Linux, and Mac) — Simple Version](https://medium.com/@techwithjulles/part-5-how-to-install-sqlite-on-your-machine-windows-linux-and-mac-simple-version-f05b7963b6cd), version 2023-03-02.
    - There is a great documentation for [Command Line Shell For SQLite](https://www.sqlite.org/cli.html) with a full overview of the commands and formats with examples for you to test and follow. 
 
-     Please note that you do not have to have SQLite pre-installed in order to use SQLiteStudio. However you can also use both simultaneously.
+     *Please note that you do not have to have SQLite pre-installed in order to use SQLiteStudio. However you can also use both simultaneously.*
 
 2. Connect to the database
-   here we provide a few general commands to connect to the database.
+   - Here we provide the commands for connecting to an existing database. In order to use sharetrait database **ST_all.db** you first move to the local directory where the database is lcoated by using cd path. Once you use the path, you can use these options
+  
+     For MacOS and Linux
+
+   ```
+   $ sqlite3 ST_all.db
+   SQLite version 3.43.2 2023-10-10 13:08:14
+   Enter ".help" for usage hints.
+   sqlite> 
+   ```
+
+   This same command can be also used for creating a new database. This following example will create a new empty database *[my_first_database.db]*. 
    
-3. Query and access data in sharetrait database
+   
+   ```
+   $ sqlite3 my_first_database.db
+   SQLite version 3.43.2 2023-10-10 13:08:14
+   Enter ".help" for usage hints.
+   sqlite> 
+   ```
+   
+4. Query and access data in sharetrait database
 
