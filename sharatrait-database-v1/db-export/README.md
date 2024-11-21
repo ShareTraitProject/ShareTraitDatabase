@@ -74,7 +74,29 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    
 4. Query and access data in sharetrait database
 
-   - Using the *select* command to view 
+   - Using the *select* command to view.
+     Once you have connected to the database you can use Select to Access and view tables of the Database. The easiest way to view the content of a table is by using select. For example, the following command will allow you to view the Table Dataset of ShareTrait version 1.0.
+     Select is a command that needs a semi-colon (;) in order to be executed
+
+```
+sqlite> select * from dataset;
+TRADAT001,"Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile",https://doi.org/10.5281/zenodo.7774767,Alfaro_Tapia_et_al_2022,primary,dataset,zenodo,"","","","",2022,2023-03-27,development,"5 populations of the same species aphid parasitoid Aphidius platensis.",""
+TRADAT002,"Dataset of Burraco, Valdes & Orizaola in Journal of Animal Ecology.",https://doi.org/10.6084/m9.figshare.9992201.v1,Burraco_et_al_2020,primary,dataset,figshare,"","","","",2022,2022-11-29,development,"seems that there are 2 populations rana temporaria and rana arvalis",""
+TRADAT003,"Phenotypic and Genetic Effects of Contrasting Ethanol Environments on Physiological and Developmental Traits in Drosophila melanogaster",https://doi.org/10.6084/m9.figshare.22561378.v1,Castaneda_and_Nespolo_2013,primary,dataset,figshare,"","","","",2023,2023-03-30,development,"2 populations Drosophila melanogaster",""
+```
+
+   - you can use Select * [table-name] to view the content for any of the tables in ShareTrait. The table list is provided under the attribute **table name** in [ShareTrait-database-tables-overview.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv) or using the same names as provided in the [table list](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-tables)
+   - You can use LIMIT 1 where 1 is the number of records to display at the end of the select command option in order to limit your number of records views. FOr example, the example above will select only the first 5 records from table
+     
+```
+     sqlite> select * from population limit 5;
+     TRAPOP001,dat001pop001,ind_measure,"",Aphidius_platensis,"","",""
+     TRAPOP002,dat001pop002,ind_measure,"",Aphidius_platensis,"","",""
+     TRAPOP003,dat001pop003,ind_measure,"",Aphidius_platensis,"","",""
+     TRAPOP004,dat001pop004,ind_measure,"",Aphidius_platensis,"","",""
+     TRAPOP005,dat001pop005,ind_measure,"",Aphidius_platensis,"","",""
+```
+     
 
 ## Futher useful reads
 
