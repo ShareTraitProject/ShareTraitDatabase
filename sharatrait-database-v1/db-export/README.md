@@ -41,7 +41,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
 2. Connect to the database
    - Here we provide the commands for connecting to an existing database. In order to use sharetrait database **ST_all.db** you first move to the local directory where the database is lcoated by using cd path. Once you use the path, you can use these options
   
-     For MacOS and Linux
+     For MacOS and Linux the **sqlite3** command is used 
 
    ```
    $ sqlite3 ST_all.db
@@ -50,7 +50,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite> 
    ```
 
-   This same command can be also used for creating a new database. This following example will create a new empty database *[my_first_database.db]*. 
+   Please note that launching sqlite3 is used for creating a new database. This following example shows that it will create a new database named *[my_first_database.db]* If the file *[my_first_database.db]* already exists, SQLite will open a connection to it; if it does not exist, SQLite will create it.
    
    
    ```
@@ -59,6 +59,15 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    Enter ".help" for usage hints.
    sqlite> 
    ```
+
+    For Windows. For 
    
 4. Query and access data in sharetrait database
+
+## Futher useful reads
+
+- [Getting Started with SQLite](https://medium.com/@techwithjulles/list/getting-started-with-sqlite-dbc1bf2c4a04)
+- [SQLite Documentation Quick Start](https://www.sqlite.org/quickstart.html)
+
+Futher editions will provide different methods to connect and use the database. For any questions on how to use sharetrait-database-version1, please contact Irene
 
