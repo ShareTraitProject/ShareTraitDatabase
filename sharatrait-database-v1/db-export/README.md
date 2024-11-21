@@ -78,29 +78,52 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
      Once you have connected to the database you can use Select to Access and view tables of the Database. The easiest way to view the content of a table is by using select. For example, the following command will allow you to view the Table Dataset of ShareTrait version 1.0.
      Select is a command that needs a semi-colon (;) in order to be executed
 
-```
-sqlite> select * from dataset;
-TRADAT001,"Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile",https://doi.org/10.5281/zenodo.7774767,Alfaro_Tapia_et_al_2022,primary,dataset,zenodo,"","","","",2022,2023-03-27,development,"5 populations of the same species aphid parasitoid Aphidius platensis.",""
-TRADAT002,"Dataset of Burraco, Valdes & Orizaola in Journal of Animal Ecology.",https://doi.org/10.6084/m9.figshare.9992201.v1,Burraco_et_al_2020,primary,dataset,figshare,"","","","",2022,2022-11-29,development,"seems that there are 2 populations rana temporaria and rana arvalis",""
-TRADAT003,"Phenotypic and Genetic Effects of Contrasting Ethanol Environments on Physiological and Developmental Traits in Drosophila melanogaster",https://doi.org/10.6084/m9.figshare.22561378.v1,Castaneda_and_Nespolo_2013,primary,dataset,figshare,"","","","",2023,2023-03-30,development,"2 populations Drosophila melanogaster",""
-```
+   ```
+   sqlite> select * from dataset;
+   TRADAT001,"Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile",https://doi.org/10.5281/zenodo.7774767,Alfaro_Tapia_et_al_2022,primary,dataset,zenodo,"","","","",2022,2023-03-27,development,"5 populations of the same species aphid parasitoid Aphidius platensis.",""
+   TRADAT002,"Dataset of Burraco, Valdes & Orizaola in Journal of Animal Ecology.",https://doi.org/10.6084/m9.figshare.9992201.v1,Burraco_et_al_2020,primary,dataset,figshare,"","","","",2022,2022-11-29,development,"seems that there are 2 populations rana temporaria and rana arvalis",""
+   TRADAT003,"Phenotypic and Genetic Effects of Contrasting Ethanol Environments on Physiological and Developmental Traits in Drosophila melanogaster",https://doi.org/10.6084/m9.figshare.22561378.v1,Castaneda_and_Nespolo_2013,primary,dataset,figshare,"","","","",2023,2023-03-30,development,"2 populations Drosophila melanogaster",""
+   ```
 
    - you can use Select * [table-name] to view the content for any of the tables in ShareTrait. The table list is provided under the attribute **table name** in [ShareTrait-database-tables-overview.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv) or using the same names as provided in the [table list](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-tables)
    - You can use LIMIT 1 where 1 is the number of records to display at the end of the select command option in order to limit your number of records views. FOr example, the example above will select only the first 5 records from table
      
-```
+     
+   ```
      sqlite> select * from population limit 5;
      TRAPOP001,dat001pop001,ind_measure,"",Aphidius_platensis,"","",""
      TRAPOP002,dat001pop002,ind_measure,"",Aphidius_platensis,"","",""
      TRAPOP003,dat001pop003,ind_measure,"",Aphidius_platensis,"","",""
      TRAPOP004,dat001pop004,ind_measure,"",Aphidius_platensis,"","",""
      TRAPOP005,dat001pop005,ind_measure,"",Aphidius_platensis,"","",""
-```
+   ```
      
 4. Use the query templates to access the data
 
    - We have provided a list of existing [queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries) for you to try. You can either paste the query in your sqlite command-line, or paste the query in the SQL Editor as described in Section 3. Use database version 1.0 of SQLiteStudio.
    - Please note that the db provided for version 1.0, [ST_all.db](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-export/ST_all.db) contains already Views integrated for you to view as templates and results. All documentation of results can be found in the query subfolder [queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries)
+
+     Here we provide an example of query based on the question:
+     **"Give me all the datasets that provide data regarding the group having the genus name *Danio*. Please also include DOIs if the dataset is published and the repository where the data is found"**
+
+     ```
+     Select distinct dataset.dataset_pk, dataset.title_dataset, dataset.dataset_publisher, dataset.doi_dataset, dataset.year_publication, population.species_reported, measurement.trait_type
+      from dataset, describe, population, taxonomic_label, ref_taxonomy, contains, individual, measurement
+      where ref_taxonomy.genus_name = "Danio" AND ref_taxonomy.taxonomy_pk = taxonomic_label.taxonomy_pk AND taxonomic_label.population_pk = population.population_pk AND population.population_pk = describe.population_pk AND describe.dataset_pk = dataset.dataset_pk
+      AND population.population_pk = contains.population_pk AND contains.individual_pk = individual.individual_pk AND individual.individual_pk = measurement.individual_pk
+     ```
+
+   The output provides this result
+
+   ```
+   TRADAT028,"dbarneche/zebrafishCostOfGrowth: Published version of paper data and code: Warming increases the cost of growth in a model vertebrate",zenodo,https://doi.org/10.5281/zenodo.2634100,2019,Danio_rerio,metabolic_rate
+   TRADAT033,"Data from: Are acute and acclimated thermal effects on metabolic rate modulated by cell size? A comparison between diploid and triploid zebrafish larvae",dryad,https://doi.org/10.5061/dryad.2280gb5qw,2020,Danio_rerio,metabolic_rate
+   TRADAT040,"The dataset is not published","","","",Danio_rerio,metabolic_rate
+   TRADAT044,"Endocrine disruption from plastic pollution and warming interact to increase the energetic cost of growth in a fish",dryad,https://doi.org/10.5061/dryad.v6wwpzgxm,2022,Danio_rerio,metabolic_rate
+   ```
+
+   In which shows only 4 datasets of sharetrait provide information regarding Danio and only 3 of them are published datasets. Two in Zenodo and one in Dryad repository. 
+     
 
    
 ## Futher useful reads
