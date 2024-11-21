@@ -123,7 +123,22 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    ```
 
    In which shows only 4 datasets of sharetrait provide information regarding Danio and only 3 of them are published datasets. Two in Zenodo and one in Dryad repository. 
-     
+
+   5. Download the data
+
+      The data queries can be downloaded in different formats. We suggest for you to keep the .csv format that can be imported and viewed with different applications.
+      Here is an example how you can dump the result of a query into a csv file.
+      Please make sure to select the path where you want your csv to be saved. As an example here, we will use a select * from table-name to show how you can dump a table directly into a csv format. Note that the query can be any query output. There are many ways to download the data. For now we will show from the sqlite prompt. Here is the case to dump the table we used in the previous example: dataset and *..path/selected_dataset.csv* is the path and the name of the file you want to use.
+
+      ```
+      sqlite> .headers on
+      sqlite> .mode csv
+      sqlite> .output path/selected_dataset.csv
+      sqlite> SELECT * from dataset;
+      ```
+      This will save the table dataset of sharetrait into selected_dataset.csv. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [1] and [3] references.
+  
+   
 
    
 ## Futher useful reads
@@ -139,5 +154,8 @@ Futher editions will provide different methods to connect and use the database. 
 [1] Command Line Shell For SQLite: https://www.sqlite.org/cli.html
 
 [2] Data carpentry, The SQLite command line: https://datacarpentry.github.io/sql-socialsci/instructor/08-sqlite-command-line.html#:~:text=Open%20a%20command%20prompt%20(cmd,screen%20similar%20to%20that%20below.
+
+[3] Export sqlite database to a csv file: https://deeplearning.lipingyang.org/export-sqlite-database-to-a-csv-file-using-sqlite3-command-line-tool-ubuntu-16-04/
+
 
 
