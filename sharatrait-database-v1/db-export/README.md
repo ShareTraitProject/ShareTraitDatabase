@@ -60,7 +60,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite> 
    ```
 
-   - For Windows users, the command line programme is with sqlite3.exe. However, because double-clicking starts the sqlite3.exe without command-line arguments, no database file will have been specified, so SQLite will use a temporary database that is deleted when the session exits. To use a persistent disk file as the database, enter the ".open" command immediately after the terminal window starts up [1], [2].
+   - For Windows users, the command line programme is with sqlite3.exe. However, because double-clicking starts the sqlite3.exe without command-line arguments, no database file will have been specified, so SQLite will use a temporary database that is deleted when the session exits. To use a persistent disk file as the database, enter the ".open" command immediately after the terminal window starts up [^1], [^2].
    Thus from the command prompt SQLite3 shell program
 
    ```
@@ -109,7 +109,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    **"Give me all the datasets that provide data regarding the group having the genus name *Danio*.** 
    **Please also include DOIs if the dataset is published and the repository where the data is found"**
 
-   ```
+   ```sql
      Select distinct dataset.dataset_pk, dataset.title_dataset, dataset.dataset_publisher, dataset.doi_dataset, dataset.year_publication, population.species_reported, measurement.trait_type
       from dataset, describe, population, taxonomic_label, ref_taxonomy, contains, individual, measurement
       where ref_taxonomy.genus_name = "Danio" AND ref_taxonomy.taxonomy_pk = taxonomic_label.taxonomy_pk AND taxonomic_label.population_pk = population.population_pk AND population.population_pk = describe.population_pk AND describe.dataset_pk = dataset.dataset_pk
@@ -139,7 +139,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
       sqlite> .output path/selected_dataset.csv
       sqlite> SELECT * from dataset;
       ```
-      This will save the table dataset of sharetrait into selected_dataset.csv. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [1] and [3] references.
+      This will save the table dataset of sharetrait into selected_dataset.csv. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [^1] and [^3] references.
   
    
 
@@ -154,11 +154,11 @@ Futher editions will provide different methods to connect and use the database. 
 
 ### References
 
-[1] Command Line Shell For SQLite: https://www.sqlite.org/cli.html
+[^1]: Command Line Shell For SQLite: https://www.sqlite.org/cli.html
 
-[2] Data carpentry, The SQLite command line: https://datacarpentry.github.io/sql-socialsci/instructor/08-sqlite-command-line.html#:~:text=Open%20a%20command%20prompt%20(cmd,screen%20similar%20to%20that%20below.
+[^2]: Data carpentry, The SQLite command line: https://datacarpentry.github.io/sql-socialsci/instructor/08-sqlite-command-line.html#:~:text=Open%20a%20command%20prompt%20(cmd,screen%20similar%20to%20that%20below.
 
-[3] Export sqlite database to a csv file: https://deeplearning.lipingyang.org/export-sqlite-database-to-a-csv-file-using-sqlite3-command-line-tool-ubuntu-16-04/
+[^3]: Export sqlite database to a csv file: https://deeplearning.lipingyang.org/export-sqlite-database-to-a-csv-file-using-sqlite3-command-line-tool-ubuntu-16-04/
 
 
 
