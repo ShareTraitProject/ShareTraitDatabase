@@ -50,7 +50,7 @@ GROUP BY measurement.measurement_pk
 ```
 
 
-## query-output
+## Query output
 
 - the query can be saved in this way
 - version of the query output is found here: [master-query-output.csv]()
