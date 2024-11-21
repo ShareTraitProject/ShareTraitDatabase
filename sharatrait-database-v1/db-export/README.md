@@ -60,9 +60,21 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite> 
    ```
 
-    For Windows users, the command line programme is with sqlite3.exe. However, because double-clicking starts the sqlite3.exe without command-line arguments, no database file will have been specified, so SQLite will use a temporary database that is deleted when the session exits. To use a persistent disk file as the database, enter the ".open" command immediately after the terminal window starts up. [1], [2]
+    For Windows users, the command line programme is with sqlite3.exe. However, because double-clicking starts the sqlite3.exe without command-line arguments, no database file will have been specified, so SQLite will use a temporary database that is deleted when the session exits. To use a persistent disk file as the database, enter the ".open" command immediately after the terminal window starts up [1], [2].
+   Thus from the command prompt SQLite3 shell program
+
+   ```
+   SQLite version 3.36.0 2021-06-18 18:36:39
+   Enter ".help" for usage hints.
+   Connected to a transient in-memory database.
+   Use ".open FILENAME" to reopen on a persistent database.
+   sqlite> .open ST_all.db
+   sqlite>
+   ```
    
 4. Query and access data in sharetrait database
+
+   - Using the *select* command to view 
 
 ## Futher useful reads
 
@@ -74,6 +86,7 @@ Futher editions will provide different methods to connect and use the database. 
 ### Reference
 
 [1] Command Line Shell For SQLite: https://www.sqlite.org/cli.html
+
 [2] Data carpentry, The SQLite command line: https://datacarpentry.github.io/sql-socialsci/instructor/08-sqlite-command-line.html#:~:text=Open%20a%20command%20prompt%20(cmd,screen%20similar%20to%20that%20below.
 
 
