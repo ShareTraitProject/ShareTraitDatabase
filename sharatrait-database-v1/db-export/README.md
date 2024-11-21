@@ -72,7 +72,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite>
    ```
    
-4. Query and access data in sharetrait database
+3. Query and access data in sharetrait database
 
    - Using the *select* command to view.
      Once you have connected to the database you can use Select to Access and view tables of the Database. The easiest way to view the content of a table is by using select. For example, the following command will allow you to view the Table Dataset of ShareTrait version 1.0.
@@ -97,11 +97,17 @@ TRADAT003,"Phenotypic and Genetic Effects of Contrasting Ethanol Environments on
      TRAPOP005,dat001pop005,ind_measure,"",Aphidius_platensis,"","",""
 ```
      
+4. Use the query templates to access the data
 
+   - We have provided a list of existing [queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries) for you to try. You can either paste the query in your sqlite command-line, or paste the query in the SQL Editor as described in Section 3. Use database version 1.0 of SQLiteStudio.
+   - Please note that the db provided for version 1.0, [ST_all.db](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-export/ST_all.db) contains already Views integrated for you to view as templates and results. All documentation of results can be found in the query subfolder [queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries)
+
+   
 ## Futher useful reads
 
 - [Getting Started with SQLite](https://medium.com/@techwithjulles/list/getting-started-with-sqlite-dbc1bf2c4a04)
 - [SQLite Documentation Quick Start](https://www.sqlite.org/quickstart.html)
+- [Tutorial SQLite Commands](https://www.tutorialspoint.com/sqlite/sqlite_commands.htm)
 
 Futher editions will provide different methods to connect and use the database. For any questions on how to use sharetrait-database-version1, please contact Irene
 
