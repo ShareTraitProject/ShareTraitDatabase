@@ -50,7 +50,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite> 
    ```
 
-   Please note that launching sqlite3 is used for creating a new database. This following example shows that it will create a new database named *[my_first_database.db]* If the file *[my_first_database.db]* already exists, SQLite will open a connection to it; if it does not exist, SQLite will create it.
+   Please note that launching sqlite3 is used for creating a new database. This following example shows that it will create a new database named *[my_first_database.db]* If the file *[my_first_database.db]* already exists, SQLite will open a connection to it; if it does not exist, SQLite will create it. Do not use the semi-colon (i.e. ;) after the database name, else it will be part of the database
    
    
    ```
@@ -60,7 +60,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    sqlite> 
    ```
 
-    For Windows. For 
+    For Windows users, the command line programme is with sqlite3.exe. However, because double-clicking starts the sqlite3.exe without command-line arguments, no database file will have been specified, so SQLite will use a temporary database that is deleted when the session exits. To use a persistent disk file as the database, enter the ".open" command immediately after the terminal window starts up. [1], [2]
    
 4. Query and access data in sharetrait database
 
@@ -70,4 +70,10 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
 - [SQLite Documentation Quick Start](https://www.sqlite.org/quickstart.html)
 
 Futher editions will provide different methods to connect and use the database. For any questions on how to use sharetrait-database-version1, please contact Irene
+
+### Reference
+
+[1] Command Line Shell For SQLite: https://www.sqlite.org/cli.html
+[2] Data carpentry, The SQLite command line: https://datacarpentry.github.io/sql-socialsci/instructor/08-sqlite-command-line.html#:~:text=Open%20a%20command%20prompt%20(cmd,screen%20similar%20to%20that%20below.
+
 
