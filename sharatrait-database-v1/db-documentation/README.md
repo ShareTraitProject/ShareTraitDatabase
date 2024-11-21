@@ -50,7 +50,7 @@ The components refer to the tables and field characteristics of the tables const
 
 ### definition of annotation used in sharatrait-database-v1/db-documentation/ShareTrait-database-schema-v1.png
 
-the annotations and constraints provided in the schema refer to the complete documentation description in ShareTrait-database-documentation-v20241108.pdf
+the annotations and constraints provided in the schema refer to the complete documentation description in [ShareTrait-database-documentation-v20241108.pdf](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-documentation-v20241108.pdf)
 
 
 
