@@ -53,7 +53,7 @@ GROUP BY measurement.measurement_pk
 ## Query output
 
 - the query can be saved in this way
-- version of the query output is found here: [master-query-output.csv]()
+- version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
   
 ## Comments
 
