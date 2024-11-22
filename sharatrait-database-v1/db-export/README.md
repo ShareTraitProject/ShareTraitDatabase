@@ -87,7 +87,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
    ```
 
    - you can use Select * [table-name] to view the content for any of the tables in ShareTrait. The table list is provided under the attribute **table name** in [ShareTrait-database-tables-overview.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv) or using the same names as provided in the [table list](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-tables)
-   - You can use LIMIT 1 where 1 is the number of records to display at the end of the select command option in order to limit your number of records views. FOr example, the example above will select only the first 5 records from table
+   - You can use LIMIT 1 where 1 is the number of records to display at the end of the select command option in order to limit your number of records views. FOr example, the example below will select only the first 5 records from table. This shows an example by selecting on the terminal:
      
      
    ```
@@ -136,12 +136,11 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
       ```
       sqlite> .headers on
       sqlite> .mode csv
-      sqlite> .output path/selected_dataset.csv
-      sqlite> SELECT * from dataset;
+      sqlite> .output /path/to/selected_dataset.csv
+      sqlite> 
       ```
-      This will save the table dataset of sharetrait into selected_dataset.csv. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [^1] and [^3] references.
-  
-   
+      
+      This will save the table dataset of sharetrait into selected_dataset.csv in a specific path you specify. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [^1] and [^3] references.
 
    
 ## Futher useful reads
