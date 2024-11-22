@@ -1,8 +1,8 @@
-# question-query for master-query-all view
+# question-query for master-query view
 
 ## Question
 
-**master-query-all**:
+**master-query**:
 
 ### *Generate a query to provide as output the complete sharetrait version 1.0.0 published in a csv version*
 
