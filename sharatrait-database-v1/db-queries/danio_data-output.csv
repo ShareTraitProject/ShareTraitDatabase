@@ -1,0 +1,5 @@
+dataset_pk,species_reported,trait_type,count(measurement.trait_value),trait_unit
+TRADAT028,Danio_rerio,metabolic_rate,621,mLO2/h/ind
+TRADAT033,Danio_rerio,metabolic_rate,422,nmolO2/h/ind
+TRADAT040,Danio_rerio,metabolic_rate,658,umolO2/h/ind
+TRADAT044,Danio_rerio,metabolic_rate,777,umolO2/min/ind
