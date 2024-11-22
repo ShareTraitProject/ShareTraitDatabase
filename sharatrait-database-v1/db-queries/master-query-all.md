@@ -50,10 +50,39 @@ GROUP BY measurement.measurement_pk
 ```
 
 
-## Query output
+## View the Query output
 
-- the query can be saved in this way
-- version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
+- the query can be saved in this way:
+  
+  1. Open the terminal and use the sqlite3 command to run the query file in sql format against the sharetrait database you have stored locally. Make sure you have the paths for where the database is stored and the info path where the query is stored.
+
+```
+sqlite3 /path/to/ST_all.db < /path/to/master-query-all.sql
+```
+
+  2. you can also save the sql query view in the same folder where the database is saved. In this case
+
+```
+sqlite3 ST_all.db < master-query-all.sql
+```
+
+  3. you can verify by the view by connecting to sharetrait database and check if the query view exists
+
+```
+sqlite3 ST_all.db < master-query-all.sql
+```
+
+  4. Now you can run the query by using a SELECT command on the view master-query. For example to view the first row of the master-table: 
+
+```sql
+SELECT * FROM master-query-all LIMIT 1;
+```
+
+You can also of course view this data select directly in the SQLStudio by selecting the table "master-query-all".
+
+  5. you can save 
+
+  a version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
   
 ## Comments
 
