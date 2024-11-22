@@ -1,21 +1,21 @@
-# question-query for master-query view
+# question-query for master-query-all view
 
 ## Question
 
-**master-query**
+**master-query-all**:
 
 ### *Generate a query to provide as output the complete sharetrait version 1.0.0 published in a csv version*
 
 
 ## Query Reference
 
-Name : [master-query.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.sql)
+Name : [master-query-all.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-all.sql)
 
 Description: selects all the mapping items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
 
 ## Query template
 
-- this template can be used to copy directly to test
+This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. MOre informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharatrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
 
 ```sql
 Select dataset.sharetrait_datasetid, dataset.date_contribution, dataset.reference_type, dataset.doi_dataset, manuscript.doi_manuscript, dataset.comments_reference, population.species_reported, ref_taxonomy.phylum_name, ref_taxonomy.class_name, ref_taxonomy.order_name, ref_taxonomy.family_name, ref_taxonomy.genus_name, ref_taxonomy.species_name, ref_taxonomy.taxonomy_db_name, ref_taxonomy.rank_level, ref_taxonomy.comment_taxonomy, site.site_realm_general, site.site_realm_specific, site.elevation_value, site.depth_value, occurrence.origin, located_in.location_description, place.location_name, located_in.latitude, located_in.longitude, occurrence.year_collection_initial, occurrence.year_collection_final, occurrence.observation_date_initial, occurrence.observation_date_final, occurrence.comment_location, measurement.experiment_location, 
@@ -52,15 +52,13 @@ GROUP BY measurement.measurement_pk
 
 ## View the Query output
 
-- the query can be saved in this way:
-  
-  1. Open the terminal and use the sqlite3 command to run the query file in sql format against the sharetrait database you have stored locally. Make sure you have the paths for where the database is stored and the info path where the query is stored.
+ 1. Open the terminal and use the sqlite3 command to run the query file in sql format against the sharetrait database you have stored locally. Make sure you have the paths for where the database is stored and the info path where the query is stored.
 
 ```
 sqlite3 /path/to/ST_all.db < /path/to/master-query-all.sql
 ```
 
-  2. you can also save the sql query view in the same folder where the database is saved. In this case
+  2. you can also save the sql query view in the same folder where the database is saved. In this case:
 
 ```
 sqlite3 ST_all.db < master-query-all.sql
@@ -80,9 +78,16 @@ SELECT * FROM master-query-all LIMIT 1;
 
 You can also of course view this data select directly in the SQLStudio by selecting the table "master-query-all".
 
-  5. you can save 
+  5. you can save by using the .output command else Tools -> Export -> Query Result in SQLiteStudio [^1].
 
-  a version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
+ ```
+      sqlite> .headers on
+      sqlite> .mode csv
+      sqlite> .output /path/to/selected_dataset.csv
+      sqlite> 
+ ```
+
+A version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
   
 ## Comments
 
@@ -93,3 +98,6 @@ You can also of course view this data select directly in the SQLStudio by select
 > - Another difference which is not making the output incorrect but just using a different term is for the Method category in which there is metadata dealing with the condition and circumstances the measurement was collected/obtained.
 > - In this case, because different situations do contain the same type of metadata (e.g. temperature, humidity for instance), we designed the condition to contain a type field (such as experiment, maintenance...). For this reason, the attribute of sharetrait dataset for "maintained" and "acclimed" that contains a "yes" and "no" features, but not for "tested" which for some reason it does not exist in sharetrait dataset, even though metadata fields are present. We then decided to have those labelled referred for the type instead of yes and no. Thus, if metadata of maintenance exists, then the value of condition is "maintained", meaning that the metadata exists, else all those values are empty. For the master query this is not actually seen as it returns the correct replication of a csv file, by providing empty values for those conditions. 
 
+---
+
+[^1]: Export SQLite database to a CSV file using SQliteStudio: https://www.sqlitetutorial.net/sqlite-export-csv/
