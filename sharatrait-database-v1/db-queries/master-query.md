@@ -9,7 +9,7 @@
 
 ## Query Reference
 
-Name : [master-query-all.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-all.sql)
+Name : [master-query.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.sql)
 
 Description: selects all the mapping items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
 
@@ -55,22 +55,22 @@ GROUP BY measurement.measurement_pk
  1. Open the terminal and use the sqlite3 command to run the query file in sql format against the sharetrait database you have stored locally. Make sure you have the paths for where the database is stored and the info path where the query is stored.
 
 ```
-sqlite3 /path/to/ST_all.db < /path/to/master-query-all.sql
+sqlite3 /path/to/ST_all.db < /path/to/master-query.sql
 ```
 
   2. you can also save the sql query view in the same folder where the database is saved. In this case:
 
 ```
-sqlite3 ST_all.db < master-query-all.sql
+sqlite3 ST_all.db < master-query.sql
 ```
 
   3. you can verify by the view by connecting to sharetrait database and check if the query view exists
 
 ```
-sqlite3 ST_all.db < master-query-all.sql
+sqlite3 ST_all.db < master-query.sql
 ```
 
-  4. Now you can run the query by using a SELECT command on the view master-query. For example to view the first row of the master-table: 
+  4. Now you can run the query by using a SELECT command on the view master-query. For example to view the first row of the master-table. Note that the view for this query is called master-query-all. We will keep this term to access data: 
 
 ```sql
 SELECT * FROM master-query-all LIMIT 1;
@@ -83,7 +83,7 @@ You can also of course view this data select directly in the SQLStudio by select
  ```
       sqlite> .headers on
       sqlite> .mode csv
-      sqlite> .output /path/to/selected_dataset.csv
+      sqlite> .output /path/to/master-query-output.csv
       sqlite> 
  ```
 
