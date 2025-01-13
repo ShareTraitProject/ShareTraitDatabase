@@ -1,10 +1,13 @@
-# ShareTrait DataBase (STDB) SQL version 1.0
+# ShareTrait DataBase (STDB) SQL version 1.2
 
 ## prerequirements
 
 - please follow the instructions found on db-export folder for using sharetrait db locally.
 
-## content for sharetrait database db-version1 folder : sharatrait-database-v1.0/
+## content for sharetrait database db-version 1.2 folder : sharatrait-database-v1.0/
+<!---
+Please make sure you update sharetrait database version 1.0 to database version 1.2 which will be the one to publish on zenodo
+-->
 
 - db-documentation: documentation, schema design and db components definition, mappings to sharetrait dataset
 - db-export: sharetrait sql format db version 1.0.0
