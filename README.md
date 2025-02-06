@@ -1,12 +1,17 @@
-# ShareTraitDatabase
+# ShareTrait DataBase SQL
 
-def
+This repository contains the ShareTrait DataBase (STDB) SQL of [ShareTrait Project Data](https://github.com/ShareTraitProject) 
 
-## repo structure
+## Repository Structure
 
-list of files
+The repository is structured with the following:
+
 ### sql-template
 ### model
 ### table
 ### documentation
 ### items
+
+---
+
+
