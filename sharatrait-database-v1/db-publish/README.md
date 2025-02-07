@@ -7,12 +7,14 @@
 
 ## File name Description
 
+This repository contains 5 files (including this README.md file):
+
 - ShareTrait-database-v1.2.0.db: ShareTrait DataBase db version 1.2.0
 - master-query-all.sql: SQL query for generating the master query
 - master-query-output.csv: complete replication of all the records of ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904) by using SQL
 - ShareTrait-dataset-database-mapping.csv: contains the sharetrait dataset attribute mapping to the sharetrait database v1.2.0 attributes that are provided in the master-query.csv output file. 
 
-## Query name
+## Query file
 
 master-query-all.sql
 
@@ -22,7 +24,6 @@ Generate a query to provide as output the complete sharetrait version 1.0.0 publ
 
 ## Query file SQL
 
-master-query.sql
 
 ```sql
 Select dataset.sharetrait_datasetid, dataset.date_contribution, dataset.reference_type, dataset.doi_dataset, manuscript.doi_manuscript, dataset.comments_reference, population.species_reported, ref_taxonomy.phylum_name, ref_taxonomy.class_name, ref_taxonomy.order_name, ref_taxonomy.family_name, ref_taxonomy.genus_name, ref_taxonomy.species_name, ref_taxonomy.taxonomy_db_name, ref_taxonomy.rank_level, ref_taxonomy.comment_taxonomy, site.site_realm_general, site.site_realm_specific, site.elevation_value, site.depth_value, occurrence.origin, located_in.location_description, place.location_name, located_in.latitude, located_in.longitude, occurrence.year_collection_initial, occurrence.year_collection_final, occurrence.observation_date_initial, occurrence.observation_date_final, occurrence.comment_location, measurement.experiment_location, 
@@ -56,44 +57,42 @@ LEFT JOIN condition a ON experiment_setup.condition_pk = a.condition_pk AND a.me
 GROUP BY measurement.measurement_pk
 ```
 
-## master-query-all description
+## master query description
 
 - the master-query-all.sql selects all the mapping attributes items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus replicating the complete record list of the dataset "ShareTrait_DataBase_v1.0.0.csv", Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904)
 - the query "master-query-all.sql" can be used directly from the Sqlite3 window prompt or SQLiteStudio. In order to run the SQL query and obtain the identical file to "ShareTrait_DataBase_v1.0.0.csv", Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904), you can run the query file in SQL format against the Sharetrait database that you have downloaded via this repository.
 - The only difference between the two versions will be the headers, in which we provide the mapping file "ShareTrait-dataset-database-mapping.csv" found in this repository
 - In terms of values, in particular to measurements and trait characteristics, this query completes all information with complete association as found in the original dataset.
-you can also save the sql query view in the same folder where the database is saved. In this case:
 
+## how to access and use the files
+
+- The simple way is that you download all the files of this repository in one folder.
+- You can access the database (.db) by using SQLiteStudio or SQLite [^1].
+- You can save the run the query against the database. If you downloaded the files in the same folder, then the command is simply run this command from the terminal:
+  
 ```
-sqlite3 ST_all.db < master-query.sql
+sqlite3 ShareTrait-database-v1.2.0.db < master-query-all.sql
 ```
+Please note that you have to have sqlite3 downloaded in your system. You can also place the whole paths of the files for running the query. 
+For more information and documentation, please go and refer to ShareTrait development repositories [^2].
 
-  3. you can verify by the view by connecting to sharetrait database and check if the query view exists
+## support
 
-```
-sqlite3 ST_all.db < master-query.sql
-```
+For any questions about ShareTrait DataBase SQL version 1.2.0, you can contact the following developers:
 
-  4. Now you can run the query by using a SELECT command on the view master-query. For example to view the first row of the master-table. Note that the view for this query is called master-query-all. We will keep this term to access data: 
-
-```sql
-SELECT * FROM master-query-all LIMIT 1;
-```
-
-You can also of course view this data select directly in the SQLStudio by selecting the table "master-query-all".
-
-  5. you can save by using the .output command else Tools -> Export -> Query Result in SQLiteStudio [^1].
-
- ```
-      sqlite> .headers on
-      sqlite> .mode csv
-      sqlite> .output /path/to/master-query-output.csv
-      sqlite> 
- ```
+- Irene Martorelli: i.martorelli@vu.nl
+- Wilco Verberk: wilco.verberk@ru.nl
+- Brett Olivier: b.g.olivier@vu.nl
+- Felix Leiva: f.leiva@science.ru.nl
+- Jacintha Ellers: j.ellers@vu.nl
+- Matty Berg: m.p.berg@vu.nl
 
 ---
 
 [^1]: Export SQLite database to a CSV file using SQliteStudio: https://www.sqlitetutorial.net/sqlite-export-csv/
+[^2]: ShareTraitProject: https://github.com/ShareTraitProject
+
+
 
 
 
