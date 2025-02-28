@@ -22,14 +22,14 @@ This repository contains 5 files (including this `README.md` file):
 ## Description and usage of SQL and CSV files of this published repository
 
 - The SQL file `master-query-all.sql` is the SQL query that generates the complete Sharetrait dataset version 1.0.0, csv format, under the name `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
-- the `master-query-all.sql` selects all the mapping attributes items found in [Shatrait DB attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus reproduces the complete data contained in the dataset `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
-- the query `master-query-all.sql` can be used directly from the [Sqlite3]() window prompt or [SQLiteStudio](). Documentation on how to access and use the tools for running and viewing the query is shared in the [Documentation]().
+- the `master-query-all.sql` selects all the mapping attributes items found in [Shatrait DB attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus reproduces the complete data contained in the dataset `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904). In terms of values, in particular to measurements and trait characteristics, this query reproduces all information with complete association as found in the original dataset of version 1.0.0.
+- the query `master-query-all.sql` can be used directly from the [Sqlite3]() window prompt or [SQLiteStudio](). Documentation on how to access and use the tools for running and viewing the query is shared in the [Documentation]() and refer to the Section [#how to access and use the files](#how to access and use the files).
 - In order to run the SQL query and obtain the identical file to `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904), you can run the query file in SQL format against the Sharetrait database (file db name `ShareTrait-database-v1.2.0.db`) that you have downloaded via this repository.
-- The only difference between the two versions will be found in the header.  `master-query-output.csv` contains as header the attributes selected from the database that correspond to the original sharetrait dataset v1.0.0. The mapping file `ShareTrait-dataset-database-mapping.csv` found in this repository provides the corresponding mapping to the headers uses in `ShareTrait_MetaData_v1.0.0.csv`, accessible via [Zenodo ShareTrait]()
-- In terms of values, in particular to measurements and trait characteristics, this query reproduces all information with complete association as found in the original dataset of version 1.0.0.
+- the `master-query-output.csv` contains as header the attributes selected from the database that correspond to the original sharetrait dataset v1.0.0.The only difference between the files provided version 1.0.0 of sharetrait with version 1.2.0 csv output files is found in the header names, as version 1.2 originates from a DB version.
+- The mapping file `ShareTrait-dataset-database-mapping.csv` found in this repository provides the corresponding mapping to the headers uses in `ShareTrait_MetaData_v1.0.0.csv`, accessible via [Zenodo ShareTrait]()
 
 
-## Query view of file master-query-all.sql 
+## Query view of the file `master-query-all.sql`
 
 
 ```sql
