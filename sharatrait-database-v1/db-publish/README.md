@@ -1,6 +1,7 @@
 <!---
 This README.md was generated for the Zenodo publication version 1.2.0 DOI: https://doi.org/10.5281/zenodo.14826294
 --->
+### README.md creator: Irene Martorelli, contact: i.martorelli@vu.nl, Date: 07-02-2025
 
 # ShareTrait Organisation - ShareTrait DataBase SQL 
 
@@ -14,12 +15,15 @@ This README.md was generated for the Zenodo publication version 1.2.0 DOI: https
 This repository contains 5 files (including this `README.md` file):
 
 - `ShareTrait-database-v1.2.0.db`: ShareTrait DB database version 1.2.0
+  
 - `master-query-all.sql`: SQL query for generating the master query, see [Master Query SQL file description section
 ](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.md) for running the query.
-- `master-query-output.csv`: output file by running the SQL query `master-query-all.sql`.
-- `ShareTrait-dataset-database-mapping.csv`: contains the ShareTrait dataset attribute mapping (name of file header *sharetrait_dataset_col_name*) to the ShareTrait database v1.2.0 attributes (having header name: *sharetrait db attribute*) that are provided in the master-query.csv output file.  
 
-## Description and usage of SQL and CSV files of this published repository
+- `master-query-output.csv`: output file obtained by running the SQL query `master-query-all.sql`.
+  
+- `ShareTrait-dataset-database-mapping.csv`: contains the ShareTrait dataset attribute mapping (name of file header *sharetrait_dataset_col_name*) to the ShareTrait database v1.2.0 attributes (having header name: *sharetrait db attribute*) that are provided in the `master-query-output.csv` output file.  
+
+## Description of the SQL and CSV files of this published repository
 
 - The SQL file `master-query-all.sql` is the SQL query that generates the complete Sharetrait dataset version 1.0.0, csv format, under the name `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
 - the `master-query-all.sql` selects all the mapping attributes items found in [Shatrait DB attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus reproduces the complete data contained in the dataset `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904). In terms of values, in particular to measurements and trait characteristics, this query reproduces all information with complete association as found in the original dataset of version 1.0.0.
@@ -66,19 +70,21 @@ GROUP BY measurement.measurement_pk
 
 
 
-## how to access and use the files
+## Access and usage of the DB and SQL files
 
-- The simple way to use these files is that you download all the files of this repository in one folder in your local environment.
-- You can access the database (.db) by using SQLiteStudio or SQLite [^1].
-- You can save the run the query against the database by using this command line in the terminal. If you have downloaded the files in the same folder, then the command is simply run this command from the terminal:
+1. The simple way to use these files is that you download all the files of this repository in one folder in your local environment.
+  
+2. Access the database (.db) by using [SQLiteStudio](https://sqlitestudio.pl) or [SQLite](https://www.sqlite.org) [^1].
+
+3. Save and the run the query (*`master-query-all.sql`*) against the database (file `ShareTrait-database-v1.2.0.db`) by using the following command line in the terminal. If you have downloaded the files in the same folder, then access the folder (*cd path*) and use the command from the terminal:
   
 ```
 sqlite3 ShareTrait-database-v1.2.0.db < master-query-all.sql
 ```
 
-Please note that you have to have sqlite3 downloaded in your system. 
-
-You can also place the complete files paths (database and sql query) of the files for running the query. 
+> [!NOTE] 
+Please note that you have to have Sqlite3 downloaded in your system. 
+You can also place the complete files paths (database and sql query) of the files for running the query, without being in the folder. 
 
 
 ## support
@@ -89,12 +95,10 @@ For any questions about ShareTrait DataBase SQL version 1.2.0, you can contact t
 - Brett Olivier: b.g.olivier@vu.nl
 
 > [!NOTE] 
-For more information and documentation, please go and refer to ShareTrait development repositories [^2].
+For more information and documentation, please go and refer to [ShareTraitProject](https://github.com/ShareTraitProject) 
 
 ---
 
-[^1]: Export SQLite database to a CSV file using SQliteStudio: https://www.sqlitetutorial.net/sqlite-export-csv/
-[^2]: ShareTraitProject: https://github.com/ShareTraitProject
 
 
 
