@@ -1,7 +1,7 @@
 <!---
 This README.md was generated for the Zenodo publication version 1.2.0 DOI: https://doi.org/10.5281/zenodo.14826294
 --->
-### README.md creator: Irene Martorelli, contact: i.martorelli@vu.nl, Date: 07-02-2025
+### This README.md file was generated on 07-02-2025 by Irene Martorelli
 
 # ShareTrait Organisation - ShareTrait DataBase SQL 
 
