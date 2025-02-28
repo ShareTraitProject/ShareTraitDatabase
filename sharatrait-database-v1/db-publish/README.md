@@ -1,28 +1,28 @@
 # ShareTrait Organisation - ShareTrait DataBase SQL 
 
-- repository title: ShareTrait: a data portal for making trait data interoperable and reusable
+- repository title: **ShareTrait: a data portal for making trait data interoperable and reusable**
 - version: 1.2.0
-- date: 2025-02-07
-- description: DB SQL version of ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904)
+- publish date: 2025-02-07
+- description: DataBase SQL version of ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
 
 ## List of file names and description provided in the repository
 
 This repository contains 5 files (including this README.md file):
 
-- **ShareTrait-database-v1.2.0.db**: ShareTrait DataBase db version 1.2.0
-- **master-query-all.sql**: SQL query for generating the master query, see [SQL file description section
-](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharatrait-database-v1/db-publish/README.md#master-query-files-and-description)
-- **master-query-output.csv**: complete replication of all the records of ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904) by using SQL
-- **ShareTrait-dataset-database-mapping.csv**: contains the sharetrait dataset attribute mapping to the sharetrait database v1.2.0 attributes that are provided in the master-query.csv output file. 
+- `ShareTrait-database-v1.2.0.db`: ShareTrait DB database version 1.2.0
+- `master-query-all.sql`: SQL query for generating the master query, see [Master Query SQL file description section
+](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.md)
+- `master-query-output.csv`: complete replication of all the records of ShareTrait_DataBase_v1.0.0.csv, as Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904) by using SQL
+- `ShareTrait-dataset-database-mapping.csv`: contains the ShareTrait dataset attribute mapping to the ShareTrait database v1.2.0 attributes that are provided in the master-query.csv output file. 
 
 ## Master query files and description
 
-- The SQL file master-query-all.sql is a query that generates the complete sharetrait dataset version 1.0.0, csv version, under the name ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
-- the master-query-all.sql selects all the mapping attributes items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus replicates the complete record list of the dataset "ShareTrait_DataBase_v1.0.0.csv", Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904)
-- the query "master-query-all.sql" can be used directly from the Sqlite3 window prompt or SQLiteStudio.
-- In order to run the SQL query and obtain the identical file to "ShareTrait_DataBase_v1.0.0.csv", Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904), you can run the query file in SQL format against the Sharetrait database (file db name **ShareTrait-database-v1.2.0.db**) that you have downloaded via this repository.
-- The only difference between the two versions will be found in the header.  **master-query-output.csv** contains as header the attributes selected from the database that correspond to the original sharetrait dataset v1.0.0. The mapping file "ShareTrait-dataset-database-mapping.csv" found in this repository provides the correspnding mapping to the headers uses in sharetrait dataset v1.0.0.
-- In terms of values, in particular to measurements and trait characteristics, this query completes all information with complete association as found in the original dataset.
+- The SQL file `master-query-all.sql` is a query that generates the complete Sharetrait dataset version 1.0.0, csv version, under the name ShareTrait_DataBase_v1.0.0.csv, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
+- the `master-query-all.sql` selects all the mapping attributes items found in [Shatrait DB attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv), thus replicates the complete record list of the dataset `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904)
+- the query `master-query-all.sql` can be used directly from the Sqlite3 window prompt or SQLiteStudio.
+- In order to run the SQL query and obtain the identical file to `ShareTrait_DataBase_v1.0.0.csv`, Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904), you can run the query file in SQL format against the Sharetrait database (file db name `ShareTrait-database-v1.2.0.db`) that you have downloaded via this repository.
+- The only difference between the two versions will be found in the header.  `master-query-output.csv` contains as header the attributes selected from the database that correspond to the original sharetrait dataset v1.0.0. The mapping file `ShareTrait-dataset-database-mapping.csv` found in this repository provides the corresponding mapping to the headers uses in `ShareTrait_MetaData_v1.0.0.csv`, accessible via [Zenodo ShareTrait]()
+- In terms of values, in particular to measurements and trait characteristics, this query reproduces all information with complete association as found in the original dataset of version 1.0.0.
 
 
 ## Query view of file master-query-all.sql 
@@ -59,6 +59,8 @@ LEFT JOIN condition m ON experiment_setup.condition_pk = m.condition_pk AND m.me
 LEFT JOIN condition a ON experiment_setup.condition_pk = a.condition_pk AND a.method_check = "acclimation"
 GROUP BY measurement.measurement_pk
 ```
+
+
 
 ## how to access and use the files
 
