@@ -1,3 +1,7 @@
+<!---
+This README.md was generated for the Zenodo publication version 1.2.0 DOI: https://doi.org/10.5281/zenodo.14826294
+--->
+
 # ShareTrait Organisation - ShareTrait DataBase SQL 
 
 - repository title: **ShareTrait: a data portal for making trait data interoperable and reusable**
