@@ -17,7 +17,7 @@ This repository contains 5 files (including this README.md file):
 - `master-query-all.sql`: SQL query for generating the master query, see [Master Query SQL file description section
 ](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.md)
 - `master-query-output.csv`: complete replication of all the records of ShareTrait_DataBase_v1.0.0.csv, as Published in Zenodo July 12, 2023 | Version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904) by using SQL
-- `ShareTrait-dataset-database-mapping.csv`: contains the ShareTrait dataset attribute mapping to the ShareTrait database v1.2.0 attributes that are provided in the master-query.csv output file. 
+- `ShareTrait-dataset-database-mapping.csv`: contains the ShareTrait dataset attribute mapping to the ShareTrait database v1.2.0 attributes that are provided in the master-query.csv output file.  
 
 ## Master query files and description
 
