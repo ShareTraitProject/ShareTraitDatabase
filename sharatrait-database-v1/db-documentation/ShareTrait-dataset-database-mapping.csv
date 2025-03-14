@@ -1,4 +1,4 @@
-sharetrait_dataset_col_name,sharetrait db attribute
+sharetrait_dataset_col_name,sharetrait_db_attribute
 dataset_id,dataset.sharetrait_datasetid
 date_of_contribution,dataset.date_contribution
 type_of_reference,dataset.reference_type
