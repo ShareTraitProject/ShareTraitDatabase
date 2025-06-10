@@ -2,13 +2,13 @@ table_refnum,category_name,table_name,attribute_name,type,requirement,definition
 table1,source,dataset,dataset_pk,"primary key, VARCHAR (30)",mandatory,Primary Key of the Entity dataset,,TRADAT001
 table1,source,dataset,title_dataset,TEXT,mandatory,title of the dataset. It is usually obtained from the title attribute of the original data source.,,Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile
 table1,source,dataset,doi_dataset,VARCHAR (256),mandatory,"dataset DOI, provided in URL ",doi_dataset,https://doi.org/10.5281/zenodo.7774767
-table1,source,dataset,sharetrait_datasetid,"ID, TEXT",mandatory,reference id to sharetrait dataset ,dataset_id,Alfaro_Tapia_et_al_2022
-table1,source,dataset,reference_type,VARCHAR (64),optional,indicate whether the reference corresponds to a primary or secondary reference ,type_of_reference,primary
+table1,source,dataset,sharetrait_datasetid,"ID, TEXT",mandatory,reference id to sharetrait dataset,dataset_id,Alfaro_Tapia_et_al_2022
+table1,source,dataset,reference_type,VARCHAR (64),optional,indicate whether the reference corresponds to a primary or secondary reference,type_of_reference,primary
 table1,source,dataset,dataset_type,VARCHAR (64),optional,type of dataset,,dataset
 table1,source,dataset,dataset_publisher,VARCHAR (64),optional,the name of repository where the dataset is published,,zenodo
-table1,source,dataset,dataset_licence,VARCHAR (64),mandatory,licence of the dataset ,,Creative Commons Attribution 4.0 International
+table1,source,dataset,dataset_licence,VARCHAR (64),mandatory,licence of the dataset,,Creative Commons Attribution 4.0 International
 table1,source,dataset,dataset_version,VARCHAR (64),optional,version of the dataset that is published,,1.0.0
-table1,source,dataset,dataset_citation,TEXT,optional,complete citation of the dataset ,,"Alfaro-Tapia, A., Alvarez-Baca, J. K., Tougeron, K., Lavandero, B., Le Lann, C., & Van Baaren, J. (2022). Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7774767"
+table1,source,dataset,dataset_citation,TEXT,optional,complete citation of the dataset,,"Alfaro-Tapia, A., Alvarez-Baca, J. K., Tougeron, K., Lavandero, B., Le Lann, C., & Van Baaren, J. (2022). Overwintering strategies and life-history traits of different populations of Aphidius platensis along a latitudinal gradient in Chile (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7774767"
 table1,source,dataset,date_publication,TEXT,optional,ISO date of the publication,,2022-04-29
 table1,source,dataset,year_publication,INT,optional,year of publication,,2022
 table1,source,dataset,date_contribution,VARCHAR (64),optional,contribution date for uploading the dataset in sharetrait,date_of_contribution,2022-08-01
@@ -30,7 +30,7 @@ table4,organism,describe,dataset_pk,"foreign key, VARCHAR (30)",mandatory,refere
 table4,organism,describe,population_pk,"foreign key, VARCHAR (30)",mandatory,reference to population entity,,TRAPOP001
 table4,organism,describe,date_describe,TEXT,optional,date when a population is described,,19 July 2018
 table4,organism,describe,date_iso,TEXT,optional,standard ISO date,,2018-07-19
-table4,organism,describe,year ,INT,optional,standard ISO year,,2018
+table4,organism,describe,year,INT,optional,standard ISO year,,2018
 table5,organism,population,population_pk,"primary key, VARCHAR (30)",mandatory,defines if population reference provides measurements that are derived from a collection rather than individuals,,TRAPOP001
 table5,organism,population,population_name,TEXT,optional,reference to dataset naming or identifiers used for the collection/population,,popid1
 table5,organism,population,population_label,VARCHAR (256),mandatory,defines if population reference provides measurements that are derived from a collection rather than individuals,,ind_measure/pop_measure
@@ -60,8 +60,8 @@ table7,organism,individual,offspring_size_type,VARCHAR (256),optional,type of si
 table7,organism,individual,offspring_size_units,VARCHAR (256),optional,unit of size metric of the offspring,offspring_size_units,milligram
 table7,organism,individual,offspring_size_value,"DECIMAL (8,2)",optional,size value of the offspring,offspring_size_value,1.00E-04
 table7,organism,individual,strategy_of_protection,TEXT,optional,indicates whether eggs are protected or not after laying,strategy_of_protection,"protected (carried by the female, or attached to a substrate or floating in clumped masses)"
-table7,organism,individual,description_jndividual,TEXT,optional,free description and remarks relevant to the individual as provided in the dataset,,"the individual is really cute",
-table7,organism,individual,comment,TEXT,optional,any extra comments that are not mentioned in the study,,"weak individual, handle with care",
+table7,organism,individual,description_jndividual,TEXT,optional,free description and remarks relevant to the individual as provided in the dataset,,the individual is really cute
+table7,organism,individual,comment,TEXT,optional,any extra comments that are not mentioned in the study,,"weak individual, handle with care"
 table8,organism,measurement,measurement_pk,"primary key, VARCHAR (30)",mandatory,Primary Key of the relation Measurement,,TRAMEA000001
 table8,organism,measurement,individual_pk,"foreign key, VARCHAR (30)",mandatory,reference key to the Individual table,,TRAIND000001
 table8,organism,measurement,trait_pk,"foreign key, VARCHAR (30)",mandatory,reference key to the Trait table,,TRATRA003
@@ -79,7 +79,7 @@ table8,organism,measurement,size_condition,VARCHAR (30),optional,specification f
 table8,organism,measurement,size_value_initial,"DECIMAL (8,2)",optional,size value at the start of the development stage of the individual. Specific for the developmental trait measurement,size_value_initial,no example so far
 table8,organism,measurement,size_value_final,"DECIMAL (8,2)",optional,"size value at the final of the development stage of the individual. Specific for developmental trait,",size_value_final,85
 table8,organism,measurement,size_value,"DECIMAL (8,2)",mandatory,size value of the individual,size_value,236
-table8,organism,measurement,size_units,VARCHAR (30),mandatory,unit of size metric ,size_units,milligram
+table8,organism,measurement,size_units,VARCHAR (30),mandatory,unit of size metric,size_units,milligram
 table8,organism,measurement,size_type,VARCHAR (30),mandatory,type of size metric,size_type,tibia size
 table8,organism,measurement,life_stage_general,VARCHAR (256),optional,life stage used during the experiment as defined by the researcher in the paper,life_stage_general,adult
 table8,organism,measurement,life_stage_specific,VARCHAR (256),optional,specific life stage used during the experiment as defined by the researcher in the paper,life_stage_specific,98 dpf
