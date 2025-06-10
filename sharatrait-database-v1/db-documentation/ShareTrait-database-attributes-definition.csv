@@ -60,8 +60,8 @@ table7,organism,individual,offspring_size_type,VARCHAR (256),optional,type of si
 table7,organism,individual,offspring_size_units,VARCHAR (256),optional,unit of size metric of the offspring,offspring_size_units,milligram
 table7,organism,individual,offspring_size_value,"DECIMAL (8,2)",optional,size value of the offspring,offspring_size_value,1.00E-04
 table7,organism,individual,strategy_of_protection,TEXT,optional,indicates whether eggs are protected or not after laying,strategy_of_protection,"protected (carried by the female, or attached to a substrate or floating in clumped masses)"
-table7,organism,individual,description_jndividual,TEXT,optional,free description and remarks relevant to the individual as provided in the dataset,the individual is really cute,
-table7,organism,individual,comment ,TEXT,optional,any extra comments that are not mentioned in the study,"weak individual, handle with care",
+table7,organism,individual,description_jndividual,TEXT,optional,free description and remarks relevant to the individual as provided in the dataset,,"the individual is really cute",
+table7,organism,individual,comment,TEXT,optional,any extra comments that are not mentioned in the study,,"weak individual, handle with care",
 table8,organism,measurement,measurement_pk,"primary key, VARCHAR (30)",mandatory,Primary Key of the relation Measurement,,TRAMEA000001
 table8,organism,measurement,individual_pk,"foreign key, VARCHAR (30)",mandatory,reference key to the Individual table,,TRAIND000001
 table8,organism,measurement,trait_pk,"foreign key, VARCHAR (30)",mandatory,reference key to the Trait table,,TRATRA003
