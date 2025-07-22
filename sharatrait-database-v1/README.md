@@ -2,20 +2,21 @@
 
 ## prerequirements
 
-- please follow the instructions found on db-export folder for using sharetrait db locally.
+- please follow the instructions found in db-export folder for using sharetrait db locally.
 
-## content for sharetrait database db-version 1.2.0 folder : sharatrait-database-v1.0/
+## content for sharetrait database db-version 1.2.0 folder : sharatrait-database-v1/
 <!---
 Please make sure you update sharetrait database version 1.0 to database version 1.2.0 which will be the one to publish on zenodo
 -->
-
+The sharetrait database v1 folder contains the following subfolders:
 - db-documentation: documentation, schema design and db components definition, mappings to sharetrait dataset
 - db-export: sharetrait sql format db version 1.0.0
-- db-queries: queries based on questions
-- db-tables: list of csv files mapping to the sharetrait tables
+- db-queries: queries based on biological questions
+- db-tables: list of csv files containing the values to import and mapping to the sharetrait tables
 
 ## folder overview
 
+SharetraitDatabase v1 [repo](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1) contains the following structure and files list
 ```
 ShareTraitProject/
 ├── otherrepos
@@ -64,7 +65,7 @@ ShareTraitProject/
 │   │       ├── README.md
 
 ---
-
+```
 ### other
 
 for any more information regarding the files shared, please contact Irene
