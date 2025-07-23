@@ -2,9 +2,9 @@
 
 this mappings folder contains database attributes to dataset mappings, so to keep track of data field mappings among versions. 
 
-# folder file list
+# mappings folder overview
 
-currently, this folder contains the following folders, last modified on 2025-07-23
+currently, this folder contains the following sub-folders, last modified on 2025-07-23
 
 | folder name | desc | link | version |
 | --- | --- | --- | --- |
