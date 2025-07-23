@@ -47,39 +47,14 @@ Hereby we describe the general content found for each folder of the directory. P
 | diagrams | database schemas and models versions  | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/diagrams) | 2024-08-18 |
 | documentation | definitions and description of the ER model | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/documentation) | 2024-08-01 |
 | mappings | mappings for aligning db attributes to sharetrait previous versions | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/mappings)| 2024-11-05 |
-| sharetrait-database-v1 | | | |
-| tables | | | |
+| queries | questions queries mapping for selecting data | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/queries) | 2024-09-13 |
+| sharetrait-database-v1 | v1.0.0 of sharetrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1) | 2024-11-18 |
+| tables | list of data files to populate database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/tables) | 2024-11-04 |
 
 
-
-
-
-
-
----
-
-# ShareTrait DataBase (STDB) SQL version 1.2.0
-
-## prerequirements
-
-- please follow the instructions found in db-export folder for using sharetrait db locally.
-
-## content for sharetrait database db-version 1.2.0 folder : sharatrait-database-v1/
-<!---
-Please make sure you update sharetrait database version 1.0 to database version 1.2.0 which will be the one to publish on zenodo
--->
-The sharetrait database v1 folder contains the following subfolders:
-- db-documentation: documentation, schema design and db components definition, mappings to sharetrait dataset
-- db-export: sharetrait sql format db version 1.0.0
-- db-queries: queries based on biological questions
-- db-tables: list of csv files containing the values to import and mapping to the sharetrait tables
-- db-publish: list of documentation used for publications linked to sharetrait-database-v1
-### other
-
-for any more information regarding the files shared, please contact Irene
 
 ---
 > [!NOTE] 
-Please note that this repository is active 
+Please note that this repository is active.
 > For the latest version, please refer to the latest database release folder 
 Current version: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
