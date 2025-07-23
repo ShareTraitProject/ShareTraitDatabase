@@ -13,13 +13,14 @@ The sharetrait database v1 folder contains the following subfolders:
 - db-export: sharetrait sql format db version 1.0.0
 - db-queries: queries based on biological questions
 - db-tables: list of csv files containing the values to import and mapping to the sharetrait tables
+- db-publish: list of documentation used for publications linked to sharetrait-database-v1
 
 ## folder overview
 
 SharetraitDatabase v1 [repo](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1) contains the following structure and files list
 ```
 ShareTraitProject/
-├── otherrepos
+├── other-repos
 ├── ShareTraitDatabase/
 |   ├── README.md
 |   ├── LICENSE
@@ -62,6 +63,14 @@ ShareTraitProject/
 │   │       ├── site.csv
 │   │       ├── taxonomic_label.csv
 │   │       ├── trait.csv
+│   │       ├── README.md
+│   │   ├── db-export/
+│   │       ├── zenodo_20250207
+│   │           ├── README.md
+│   │           ├── CITATION.cff
+│   │       ├── zenodo_20250724
+│   │           ├── README.md
+│   │           ├── CITATION.cff
 │   │       ├── README.md
 
 ---
