@@ -12,7 +12,7 @@ currently, this folder contains the following files, last modified on 2025-07-23
 
 
 > [!NOTE] 
-Please note that this `queries` folder contains development versions and drafts of the data mappings for sharetrait.
+Please note that this `queries` folder contains development versions and drafts of the queries used against sharetrait db.
 > For the latest version, please refer to the latest database release folder. 
 Current version: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
 
