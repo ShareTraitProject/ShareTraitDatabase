@@ -18,6 +18,7 @@ currently, this folder contains the following documents, last modified on 2025-0
 | ShareTraitER-attribute_definition-v0.1.7-2.docx | The ShareTrait Entity-Relationship Model: a step toward building the ShareTrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/documentation/ShareTraitER-attribute_definition-v0.1.7-2.docx) | Version: 0.9.5, 2024-04-08 |
 | ShareTraitER-documentation-v0.9.4-2.docx | The ShareTrait Entity-Relationship Model: a step toward building the ShareTrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/documentation/ShareTraitER-documentation-v0.9.4-2.docx) | Version: 0.9.4, 2024-04-08 |
 | ShareTraitER-documentation-v20240812.docx | The ShareTrait Entity-Relationship Model: a step toward building the ShareTrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/documentation/ShareTraitER-documentation-v20240812.docx) | Version: 0.9.6, 2024-08-01 |
+| ShareTrait-database-documentation-v20241108.pdf | The ShareTrait Entity-Relationship Model: a step toward building the ShareTrait database - bu version for v1 | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/documentation/ShareTrait-database-documentation-v20241108.pdf) | Version 1.0.0, 2024-11-02 |
 
 
 > [!NOTE] 
