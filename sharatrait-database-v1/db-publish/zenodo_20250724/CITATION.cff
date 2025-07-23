@@ -1,0 +1,73 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: x
+title: name
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Irene
+    family-names: Martorelli
+    email: i.martorelli@vu.nl
+    affiliation: >-
+      Vrije Universiteit Amsterdam, Amsterdam, the
+      Netherlands
+    orcid: 'https://orcid.org/0009-0000-3860-9290'
+  - given-names: Brett G.
+    family-names: Olivier
+    orcid: 'https://orcid.org/0000-0002-5293-5321'
+    email: b.g.olivier@vu.nl
+    affiliation: >-
+      Vrije Universiteit Amsterdam, Amsterdam, the
+      Netherlands
+  - given-names: Wilco C.E.P.
+    family-names: Verberk
+    affiliation: 'Radboud University, Nijmegen, the Netherlands'
+    email: wilco.verberk@ru.nl
+    orcid: 'https://orcid.org/0000-0002-0691-583X'
+  - given-names: Jacintha
+    family-names: Ellers
+    email: j.ellers@vu.nl
+    affiliation: >-
+      Vrije Universiteit Amsterdam, Amsterdam, the
+      Netherlands
+    orcid: 'https://orcid.org/0000-0003-2665-1971'
+  - given-names: Matty P.
+    family-names: Berg
+    email: m.p.berg@vu.nl
+    affiliation: >-
+      Vrije Universiteit Amsterdam, Amsterdam, the
+      Netherlands
+    orcid: 'https://orcid.org/0000-0001-8442-8503'
+  - given-names: Félix P.
+    family-names: Leiva
+    email: f.leiva@science.ru.nl
+    affiliation: 'Alfred Wegener Institute, Bremerhaven, Germany'
+    orcid: 'https://orcid.org/0000-0003-0249-9274'
+  - given-names: Raimon
+    family-names: Cuxart-Erruz
+    email: raimon.cuxart-i-erruz@zoologie.uni-halle.de
+    affiliation: >-
+      Martin-Luther-University Halle-Wittenberg, Halle,
+      Germany
+    orcid: 'https://orcid.org/0009-0004-1885-2022'
+repository-code: >-
+  https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1
+abstract: 
+keywords:
+  - database
+  - data integration
+  - trait
+  - standards
+  - measurement
+  - experiment
+  - organism
+  - species
+  - population
+  - observation
+license: CC-BY-4.0
+commit: imartorelli
+version: 
+date-released: '2025-07-25'
