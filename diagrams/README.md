@@ -18,5 +18,5 @@ all diagrams are exported in png format.
 [diagram.net](https://app.diagrams.net/) version 28.0.5 open software is used for creating the db representations and model versions 
 
 > [!NOTE] 
-Please note that the diagrams folder contains development versions of the database model. For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1)
+Please note that the diagrams folder contains development versions of the database model. For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
 
