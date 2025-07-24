@@ -9,13 +9,13 @@
 
 ## Query Reference
 
-Name : [Aphidius.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/Aphidius.sql)
+Name : [Aphidius.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/Aphidius.sql)
 
 Description: selects all the trait measurements being part of development sharetrait type, indipendently of the characteristics and only linked to all the population belonging to the group "Aphidius"
 
 ## Query template
 
-This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. More informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharatrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
+This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. More informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharetrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
 
 ```sql
 Select measurement.trait_type, measurement.trait_value, measurement.trait_unit, individual.individual_pk, trait.life_stage_general_initial, trait.life_stage_general_final, population.species_reported, ref_taxonomy.scientific_name
@@ -67,7 +67,7 @@ You can also of course view this data select directly in the SQLStudio by select
       sqlite> 
  ```
 
-A version of the query output is found here: [Aphidius-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/Aphidius-output.csv)
+A version of the query output is found here: [Aphidius-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/Aphidius-output.csv)
   
 ## Comments
 
