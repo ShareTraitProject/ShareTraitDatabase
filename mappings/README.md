@@ -16,4 +16,4 @@ currently, this folder contains the following sub-folders, last modified on 2025
 
 > [!NOTE] 
 Please note that this mapping folder contains development versions and drafts of the data mappings for sharetrait.
-> For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
+> For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1), last modified on 2025-07-23
