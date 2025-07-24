@@ -5,7 +5,7 @@
 ## folder description
 
 The list of tables belong to ShareTrait DB version 1.0.0. 
-The tables are provided in a csv format and map to the table template names (attribute *table name*) of [ShareTrait-db-tables-overview.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv) 
+The tables are provided in a csv format and map to the table template names (attribute *table name*) of [ShareTrait-db-tables-overview.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv) 
 
 ## mapping table files to database table templates
 
