@@ -1,5 +1,5 @@
 <!---
-This README.md was generated for the Zenodo publication version  DOI: https://doi.org/
+This README.md was generated for the Zenodo publication version  DOI: https://doi.org/10.5281/zenodo.16405946
 --->
 ### This README.md file was generated on 24-07-2025 by Irene Martorelli
 
@@ -8,7 +8,7 @@ This README.md was generated for the Zenodo publication version  DOI: https://do
 - repository title: 
 - version: 
 - publish date: 
-- description:  Published on Zenodo July 12, 2023 | version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.8138904).
+- description:  Published on Zenodo July 24, 2025 | version 1.0.0, [DOI](https://doi.org/10.5281/zenodo.16405946).
 
 ## List of file names and description provided in the repository
 
