@@ -1,0 +1,288 @@
+condition_pk,temperature,photoperiod,humidity,oxygen,carbon_dioxide,salinity,pH,oxygen_units,carbon_dioxide_units,food_type,duration,duration_generations,method_check
+TRACON000001,10,8L_16D,,,,,,,,,,,test
+TRACON000002,20,16L_8D,65,,,,,,,,30,3.0,maintenance
+TRACON002499,14,10L_14D,,,,,,,,,,,test
+TRACON005109,20,16L_8D,,,,,,,,,,,test
+TRACON007387,18,24L_0D,,,,,,,,,,,test
+TRACON007413,18,18L_6D,,,,,,,,,,,test
+TRACON007490,19,18L_6D,,,,,,,,,,,test
+TRACON007491,4,,,,,,,,,,,,maintenance
+TRACON007606,15,18L_6D,,,,,,,,,,,test
+TRACON008882,20,12L_12D,,,,,,,,ethanol medium,,,test
+TRACON008883,20,12L_12D,,,,,,,,David's killed-yeast Drosophila medium,,4.0,maintenance
+TRACON009520,20,12L_12D,,,,,,,,ethanol-free medium,,,test
+TRACON010376,19,,,,,,,,,,,,test
+TRACON010377,19,,,,,,,,,,,,maintenance
+TRACON010782,24,,,,,,,,,,,,test
+TRACON010783,24,,,,,,,,,,,,maintenance
+TRACON011830,28,,,,,,,,,,,,test
+TRACON011831,28,,,,,,,,,,,,maintenance
+TRACON012002,20,,,,,,,,,,,,test
+TRACON012003,20,,,,,,,,,,,,maintenance
+TRACON012134,10,,,,,,,,,,,,test
+TRACON012135,10,,,,,,,,,,,,maintenance
+TRACON012270,20,14L_10D,,,,,,,,,,,test
+TRACON012271,20,14L_10D,,,,,,,,"No food source as we collected eggs from the field, after hatching they received Artemia nauplii",,,maintenance
+TRACON015872,20,12L_12D,70,,200,,,,uatm,,,,test
+TRACON015873,20,12L_12D,70,,200,,,,uatm,acacia honey and drosophila hosts,240,6.0,maintenance
+TRACON015922,23,12L_12D,70,,200,,,,uatm,,,,test
+TRACON016872,16,8L_16D,,,,,,,,,,,test
+TRACON017054,8,8L_16D,,,,,,,,,,,test
+TRACON017263,16,16L_8D,,,,,,,,,,,test
+TRACON017443,8,16L_8D,,,,,,,,,,,test
+TRACON018181,28,16L_8D,95,21,400,,,kPa,ppm,,,,test
+TRACON018182,23,16L_8D,95,21,400,,,kPa,ppm,Adult butterflies were fed with artificial nectar provided through artificial flowers,1460,25.0,maintenance
+TRACON018239,28,12L_12D,95,21,400,,,kPa,ppm,,,,test
+TRACON018301,23,16L_8D,95,21,400,,,kPa,ppm,,,,test
+TRACON018361,23,12L_12D,95,21,400,,,kPa,ppm,,,,test
+TRACON018387,18,16L_8D,95,21,400,,,kPa,ppm,,,,test
+TRACON018447,18,12L_12D,95,21,400,,,kPa,ppm,,,,test
+TRACON018489,27,12L_12D,77,,,,,,,,,,test
+TRACON018490,27,12L_12D,77,,,,,,,Honey,,,maintenance
+TRACON018590,27,12L_12D,77,,,,,,,,,,maintenance
+TRACON018669,,8L_16D,75,20,,,,,,,,,test
+TRACON018670,20,16L_8D,75,,,,,,,,549,,maintenance
+TRACON019029,,8L_16D,75,14,,,,,,,,,test
+TRACON023349,7,,,,,,,,,,,,test
+TRACON023350,18,16L_8D,60,,,,,,,Apple trees,650,33.0,maintenance
+TRACON023380,17,,,,,,,,,,,,test
+TRACON023404,12,,,,,,,,,,,,test
+TRACON023690,10,0L_24D,,,,,,,,,90,0.0,maintenance
+TRACON023834,10,0L_24D,,,,,,,,,55,0.0,maintenance
+TRACON023869,15,,,,,,,,,,,,test
+TRACON023901,5,,,,,,,,,,,,test
+TRACON023934,10,0L_24D,,,,,,,,,48,0.0,maintenance
+TRACON024134,10,0L_24D,,,,,,,,,41,0.0,maintenance
+TRACON024296,10,0L_24D,,,,,,,,,76,0.0,maintenance
+TRACON024390,10,0L_24D,,,,,,,,,69,0.0,maintenance
+TRACON024520,10,0L_24D,,,,,,,,,13,0.0,maintenance
+TRACON024676,10,0L_24D,,,,,,,,,83,0.0,maintenance
+TRACON024928,10,0L_24D,,,,,,,,,62,0.0,maintenance
+TRACON025088,10,0L_24D,,,,,,,,,20,0.0,maintenance
+TRACON025326,10,0L_24D,,,,,,,,,27,0.0,maintenance
+TRACON025436,10,0L_24D,,,,,,,,,34,0.0,maintenance
+TRACON038755,20,12L_12D,,,,,,,,,,,test
+TRACON038756,20,12L_12D,,,,,,,,broadleaf lettuce,48,1.0,maintenance
+TRACON039103,10,,,,,,,,,,,,acclimation
+TRACON039173,20,,,,,,,,,,,,acclimation
+TRACON039241,28,,,,,,,,,,,,acclimation
+TRACON039312,27,,60,,,,,,,,,,test
+TRACON039313,27,12L_12D,60,,,,,,,Potato tuber moth and honey,4000,130.0,maintenance
+TRACON039492,24,16L_8D,60,,,,,,,,,,test
+TRACON039493,24,16L_8D,60,,,,,,,Cacopsylla pyri hosts producing honeydew,60,2.0,maintenance
+TRACON040636,21,12L_12D,,,,,,,,,,,test
+TRACON040637,21,12L_12D,,,,,,,,David's killed-yeast Drosophila medium,,27.0,maintenance
+TRACON040817,18,16L_8D,65,,,,,,,Diluted honey 50%,30,2.0,maintenance
+TRACON041137,18,16L_8D,65,,,,,,,,650,32.0,maintenance
+TRACON041138,7,,,,,,,,,,,,acclimation
+TRACON041174,12,,,,,,,,,,,,acclimation
+TRACON041210,17,,,,,,,,,,,,acclimation
+TRACON041256,26,14L_10D,65,,,,,,,,,,test
+TRACON041257,26,14L_10D,65,,,,,,,dried bird food and fresh apple slices,,3.0,maintenance
+TRACON041416,20,16L_8D,55,,,,,,,Food pellets made from vegetation originating from full factorial experimental trial with P addition and liming,14,1.0,maintenance
+TRACON041472,26,,,,,,,,,,,,test
+TRACON041473,26,,,,,,,,,,,,maintenance
+TRACON041496,32,,,,,,,,,,,,test
+TRACON041497,32,,,,,,,,,,,,maintenance
+TRACON041504,29,,,,,,,,,,,,test
+TRACON041505,29,,,,,,,,,,,,maintenance
+TRACON042716,20,12L_12D,,,,,,,,ethanol medium,,,acclimation
+TRACON043166,20,12L_12D,,,,,,,,ethanol-free medium,,,acclimation
+TRACON044955,28,,,19.5,,0,7.1,kPa,,,,,test
+TRACON044956,26,12L_12D,,19.5,,0,7.1,kPa,,Pelleted diet- Ridley Aqua-feeds,14,1.0,maintenance
+TRACON044957,28,12L_12D,,19.5,,0,7.1,kPa,,Pelleted diet- Ridley Aqua-feeds,56,,acclimation
+TRACON045011,32,12L_12D,,19.5,,0,7.1,kPa,,Pelleted diet- Ridley Aqua-feeds,56,,acclimation
+TRACON045063,32,,,19.5,,0,7.1,kPa,,,,,test
+TRACON045171,36,,,19.5,,0,7.1,kPa,,,,,test
+TRACON045603,21.5,12L_12D,,19.5,,0,7,kPa,,,,,test
+TRACON045604,21.5,12L_12D,,19.5,,0,7,kPa,,"pellets (0.2 mm Ridley Aqua-feeds, Melbourne, Australia) and bloodworms (Orca, Nijimi Pty Ltd, Sydney, Australia)",28,1.0,maintenance
+TRACON045605,21.5,12L_12D,,19.5,,0,7,kPa,,"Pelleted diet- Ridley Aqua-feeds and and bloodworms (Orca, Nijimi Pty Ltd, Sydney, Australia)",28,,acclimation
+TRACON045666,21.5,12L_12D,,19.5,,0,4,kPa,,,,,test
+TRACON045668,21.5,12L_12D,,19.5,,0,4,kPa,,"Pelleted diet- Ridley Aqua-feeds and and bloodworms (Orca, Nijimi Pty Ltd, Sydney, Australia)",28,,acclimation
+TRACON045856,18,,,,,,,,,A powder mix consisting of one part dried nettle and one part commercial fish food,40,,maintenance
+TRACON045857,20,,,,,,,,,no food,2,,acclimation
+TRACON045915,23,,,,,,,,,,,,test
+TRACON045916,23,,,,,,,,,earthworms and crickets,164,,maintenance
+TRACON045918,23,,,,,,,,,earthworms and crickets,154,,maintenance
+TRACON045920,23,,,,,,,,,earthworms and crickets,169,,maintenance
+TRACON045922,23,,,,,,,,,earthworms and crickets,118,,maintenance
+TRACON045924,23,,,,,,,,,earthworms and crickets,151,,maintenance
+TRACON045926,23,,,,,,,,,earthworms and crickets,144,,maintenance
+TRACON045928,23,,,,,,,,,earthworms and crickets,180,,maintenance
+TRACON045930,23,,,,,,,,,earthworms and crickets,143,,maintenance
+TRACON045932,23,,,,,,,,,earthworms and crickets,198,,maintenance
+TRACON045934,23,,,,,,,,,earthworms and crickets,90,,maintenance
+TRACON045936,23,,,,,,,,,earthworms and crickets,96,,maintenance
+TRACON045938,23,,,,,,,,,earthworms and crickets,92,,maintenance
+TRACON045940,23,,,,,,,,,earthworms and crickets,133,,maintenance
+TRACON045944,23,,,,,,,,,earthworms and crickets,188,,maintenance
+TRACON045946,23,,,,,,,,,earthworms and crickets,,,maintenance
+TRACON045948,23,,,,,,,,,earthworms and crickets,132,,maintenance
+TRACON045950,23,,,,,,,,,earthworms and crickets,171,,maintenance
+TRACON045952,23,,,,,,,,,earthworms and crickets,155,,maintenance
+TRACON045954,23,,,,,,,,,earthworms and crickets,100,,maintenance
+TRACON045956,23,,,,,,,,,earthworms and crickets,122,,maintenance
+TRACON045958,23,,,,,,,,,earthworms and crickets,138,,maintenance
+TRACON045960,23,,,,,,,,,earthworms and crickets,145,,maintenance
+TRACON045962,23,,,,,,,,,earthworms and crickets,129,,maintenance
+TRACON045964,23,,,,,,,,,earthworms and crickets,185,,maintenance
+TRACON045966,23,,,,,,,,,earthworms and crickets,82,,maintenance
+TRACON045968,23,,,,,,,,,earthworms and crickets,166,,maintenance
+TRACON045972,23,,,,,,,,,earthworms and crickets,193,,maintenance
+TRACON045974,23,,,,,,,,,earthworms and crickets,106,,maintenance
+TRACON045978,23,,,,,,,,,earthworms and crickets,99,,maintenance
+TRACON045980,23,,,,,,,,,earthworms and crickets,116,,maintenance
+TRACON045982,23,,,,,,,,,earthworms and crickets,112,,maintenance
+TRACON045984,23,,,,,,,,,earthworms and crickets,121,,maintenance
+TRACON045986,23,,,,,,,,,earthworms and crickets,137,,maintenance
+TRACON045990,23,,,,,,,,,earthworms and crickets,183,,maintenance
+TRACON045992,23,,,,,,,,,earthworms and crickets,172,,maintenance
+TRACON045994,23,,,,,,,,,earthworms and crickets,105,,maintenance
+TRACON045998,23,,,,,,,,,earthworms and crickets,119,,maintenance
+TRACON046002,23,,,,,,,,,earthworms and crickets,93,,maintenance
+TRACON046004,23,,,,,,,,,earthworms and crickets,113,,maintenance
+TRACON046006,23,,,,,,,,,earthworms and crickets,102,,maintenance
+TRACON046012,23,,,,,,,,,earthworms and crickets,159,,maintenance
+TRACON046016,23,,,,,,,,,earthworms and crickets,181,,maintenance
+TRACON046018,23,,,,,,,,,earthworms and crickets,175,,maintenance
+TRACON046024,23,,,,,,,,,earthworms and crickets,120,,maintenance
+TRACON046030,23,,,,,,,,,earthworms and crickets,176,,maintenance
+TRACON046042,23,,,,,,,,,earthworms and crickets,114,,maintenance
+TRACON046048,23,,,,,,,,,earthworms and crickets,141,,maintenance
+TRACON046050,23,,,,,,,,,earthworms and crickets,149,,maintenance
+TRACON046052,23,,,,,,,,,earthworms and crickets,94,,maintenance
+TRACON046056,23,,,,,,,,,earthworms and crickets,131,,maintenance
+TRACON046058,23,,,,,,,,,earthworms and crickets,128,,maintenance
+TRACON046062,23,,,,,,,,,earthworms and crickets,148,,maintenance
+TRACON046066,23,,,,,,,,,earthworms and crickets,109,,maintenance
+TRACON046074,23,,,,,,,,,earthworms and crickets,88,,maintenance
+TRACON046078,23,,,,,,,,,earthworms and crickets,160,,maintenance
+TRACON046080,23,,,,,,,,,earthworms and crickets,195,,maintenance
+TRACON046082,23,,,,,,,,,earthworms and crickets,108,,maintenance
+TRACON046086,23,,,,,,,,,earthworms and crickets,150,,maintenance
+TRACON046088,23,,,,,,,,,earthworms and crickets,147,,maintenance
+TRACON046090,23,,,,,,,,,earthworms and crickets,192,,maintenance
+TRACON046092,23,,,,,,,,,earthworms and crickets,191,,maintenance
+TRACON046094,23,,,,,,,,,earthworms and crickets,142,,maintenance
+TRACON046100,23,,,,,,,,,earthworms and crickets,107,,maintenance
+TRACON046102,23,,,,,,,,,earthworms and crickets,111,,maintenance
+TRACON046104,23,,,,,,,,,earthworms and crickets,200,,maintenance
+TRACON046106,23,,,,,,,,,earthworms and crickets,210,,maintenance
+TRACON046110,23,,,,,,,,,earthworms and crickets,104,,maintenance
+TRACON046116,23,,,,,,,,,earthworms and crickets,74,,maintenance
+TRACON046120,23,,,,,,,,,earthworms and crickets,156,,maintenance
+TRACON046126,23,,,,,,,,,earthworms and crickets,170,,maintenance
+TRACON046132,23,,,,,,,,,earthworms and crickets,127,,maintenance
+TRACON046140,23,,,,,,,,,earthworms and crickets,98,,maintenance
+TRACON046152,23,,,,,,,,,earthworms and crickets,146,,maintenance
+TRACON046153,29.5,,,,,,,,,,,,test
+TRACON046154,29.5,,,,,,,,,,,,maintenance
+TRACON046193,26.5,,,,,,,,,,,,test
+TRACON046194,26.5,,,,,,,,,,,,maintenance
+TRACON046227,23.5,,,,,,,,,,,,test
+TRACON046228,23.5,,,,,,,,,,,,maintenance
+TRACON046999,,,,,,,,,,,20,,acclimation
+TRACON047058,23,,,,,,,,,,,,maintenance
+TRACON047059,,,,,,,,,,,23,,acclimation
+TRACON047489,11.5,24L_0D,,1.731779266,,32,,kPa,,,,,test
+TRACON047490,11.5,12L_12D,,,,32.3,,,,krill flakes,21,,maintenance
+TRACON047501,11.5,24L_0D,,4.220835712,,32,,kPa,,,,,test
+TRACON047513,11.5,24L_0D,,7.657801935,,32,,kPa,,,,,test
+TRACON047525,11.5,24L_0D,,12.01978897,,32,,kPa,,,,,test
+TRACON047537,11.5,24L_0D,,21.116,,32,,kPa,,,,,test
+TRACON047549,11.5,,,21,,32,,kPa,,,,,test
+TRACON047550,11.5,12L_12D,,21,,32,,kPa,,krill flakes,0,,maintenance
+TRACON047582,11.5,12L_12D,,21,,32,,kPa,,krill flakes,1,,maintenance
+TRACON048054,11.5,12L_12D,,21,,32,,kPa,,krill flakes,7,,maintenance
+TRACON048070,11.5,12L_12D,,21,,32,,kPa,,krill flakes,8,,maintenance
+TRACON048432,11.5,12L_12D,,21,,32,,kPa,,krill flakes,14,,maintenance
+TRACON048462,11.5,12L_12D,,21,,32,,kPa,,krill flakes,15,,maintenance
+TRACON048954,11.5,12L_12D,,21,,32,,kPa,,krill flakes,21,,maintenance
+TRACON048982,11.5,12L_12D,,21,,32,,kPa,,krill flakes,22,,maintenance
+TRACON049404,11.5,12L_12D,,21,,32,,kPa,,krill flakes,28,,maintenance
+TRACON049436,11.5,12L_12D,,21,,32,,kPa,,krill flakes,29,,maintenance
+TRACON049871,6,,,2.36,,32,,kPa,,,,,test
+TRACON049872,12,12L_12D,,,,32,,,,,,,maintenance
+TRACON049891,6,,,4.71,,32,,kPa,,,,,test
+TRACON049911,6,,,9.44,,32,,kPa,,,,,test
+TRACON049931,6,,,14.15,,32,,kPa,,,,,test
+TRACON049951,6,,,21.23,,32,,kPa,,,,,test
+TRACON049971,12,,,2.36,,32,,kPa,,,,,test
+TRACON049991,12,,,4.71,,32,,kPa,,,,,test
+TRACON050011,12,,,9.44,,32,,kPa,,,,,test
+TRACON050031,12,,,14.15,,32,,kPa,,,,,test
+TRACON050051,12,,,21.23,,32,,kPa,,,,,test
+TRACON050071,18,,,2.36,,32,,kPa,,,,,test
+TRACON050091,18,,,4.71,,32,,kPa,,,,,test
+TRACON050111,18,,,9.44,,32,,kPa,,,,,test
+TRACON050131,18,,,14.15,,32,,kPa,,,,,test
+TRACON050151,18,,,21.23,,32,,kPa,,,,,test
+TRACON051047,21,,,,,,,,,,,,test
+TRACON051317,9,,,,,20,,,,,,,test
+TRACON051318,9,,,,,20,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051363,18,,,,,20,,,,,,,test
+TRACON051364,18,,,,,20,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051413,25,,,,,20,,,,,,,test
+TRACON051414,25,,,,,20,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051465,25.6,,,,,20,,,,,,,test
+TRACON051466,25.6,,,,,20,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051515,26.2,,,,,20,,,,,,,test
+TRACON051516,26.2,,,,,20,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051563,10,,,,,22,,,,,,,test
+TRACON051564,10,,,,,22,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051611,18,,,,,22,,,,,,,test
+TRACON051612,18,,,,,22,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051651,28,,,,,22,,,,,,,test
+TRACON051652,28,,,,,22,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051739,28.6,,,,,22,,,,,,,test
+TRACON051740,28.6,,,,,22,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051783,29.2,,,,,22,,,,,,,test
+TRACON051784,29.2,,,,,22,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051823,12,,,,,21,,,,,,,test
+TRACON051824,12,,,,,21,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051865,18,,,,,21,,,,,,,test
+TRACON051866,18,,,,,21,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051927,29,,,,,21,,,,,,,test
+TRACON051928,29,,,,,21,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON051975,29.6,,,,,21,,,,,,,test
+TRACON051976,29.6,,,,,21,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON052019,30.2,,,,,21,,,,,,,test
+TRACON052020,30.2,,,,,21,,,,Phragmites australis (Cav.) Trin. ex Steud,14,,acclimation
+TRACON052068,28,,,,,,,,,,98,,maintenance
+TRACON052069,28,,,100,,,,percentage_of_saturation,,,,,acclimation
+TRACON052249,28,,,50,,,,percentage_of_saturation,,,,,acclimation
+TRACON052369,23,,,100,,,,percentage_of_saturation,,,,,acclimation
+TRACON052480,23,,,50,,,,percentage_of_saturation,,,,,acclimation
+TRACON053079,23,,,,,,,,,,126,,maintenance
+TRACON054042,10,12L_12D,100,21,400,0,7,kPa,uatm,red chironomids,7,,acclimation
+TRACON054272,29,12L_12D,,,,,,,,"finely processed raw food that consisted of 50% vegetables (butternut pumpkin, green beans and rocket), 40% meat (turkey mince) and 10% fruit (strawberries). This food mix was supplemented with a reptile-specific multi-vitamin (Herptivite���, Rep-Cal, Los Gatos, CA, USA) and calcium powder (phosphorus-free calcium with vitamin D3 Ultrafine, Rep-Cal) at the recommended dose of 15���ml of each supplement per 1���kg of food.",1000,1.0,maintenance
+TRACON054297,35,,,,,,,,,,,,test
+TRACON054461,20.5,12L_12D,,,,,,,,,,,test
+TRACON054462,20.5,12L_12D,,,,,,,,Fed once a week on vitamin-dusted crickets,,1.0,maintenance
+TRACON054463,20.5,12L_12D,,,,,,,,Fed once a week on vitamin-dusted crickets,,,acclimation
+TRACON054992,24,24L_0D,,100,,0,7.6,percentage_of_saturation,,,,,test
+TRACON054993,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",98,,maintenance
+TRACON054994,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA) supplemented with live Artemia salina nauplii every three to four days",,,acclimation
+TRACON055100,30,24L_0D,,100,,0,7.6,percentage_of_saturation,,,,,test
+TRACON055101,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",98,,maintenance
+TRACON055102,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA) supplemented with live Artemia salina nauplii every three to four days",,,acclimation
+TRACON055194,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",91,,maintenance
+TRACON055302,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",91,,maintenance
+TRACON055407,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",84,,maintenance
+TRACON055515,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",84,,maintenance
+TRACON055620,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",77,,maintenance
+TRACON055728,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",77,,maintenance
+TRACON055836,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",70,,maintenance
+TRACON055944,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",70,,maintenance
+TRACON056052,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",63,,maintenance
+TRACON056160,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",63,,maintenance
+TRACON056268,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",56,,maintenance
+TRACON056376,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",56,,maintenance
+TRACON056484,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",49,,maintenance
+TRACON056592,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",49,,maintenance
+TRACON056700,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",42,,maintenance
+TRACON056808,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",42,,maintenance
+TRACON056916,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",35,,maintenance
+TRACON057021,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",35,,maintenance
+TRACON057126,24,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",126,,maintenance
+TRACON057231,30,14L_10D,,100,,0,7.6,percentage_of_saturation,,"Fish flakes (Tetramin, VA, USA)_supplemented with live Artemia salina nauplii every 3�4 days",126,,maintenance
