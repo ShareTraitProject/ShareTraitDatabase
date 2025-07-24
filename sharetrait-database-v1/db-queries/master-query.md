@@ -9,13 +9,13 @@
 
 ## Query Reference
 
-Name : [master-query.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query.sql)
+Name : [master-query.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/master-query.sql)
 
-Description: selects all the mapping items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
+Description: selects all the mapping items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
 
 ## Query template
 
-This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. MOre informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharatrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
+This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. MOre informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharetrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
 
 ```sql
 Select dataset.sharetrait_datasetid, dataset.date_contribution, dataset.reference_type, dataset.doi_dataset, manuscript.doi_manuscript, dataset.comments_reference, population.species_reported, ref_taxonomy.phylum_name, ref_taxonomy.class_name, ref_taxonomy.order_name, ref_taxonomy.family_name, ref_taxonomy.genus_name, ref_taxonomy.species_name, ref_taxonomy.taxonomy_db_name, ref_taxonomy.rank_level, ref_taxonomy.comment_taxonomy, site.site_realm_general, site.site_realm_specific, site.elevation_value, site.depth_value, occurrence.origin, located_in.location_description, place.location_name, located_in.latitude, located_in.longitude, occurrence.year_collection_initial, occurrence.year_collection_final, occurrence.observation_date_initial, occurrence.observation_date_final, occurrence.comment_location, measurement.experiment_location, 
@@ -87,7 +87,7 @@ You can also of course view this data select directly in the SQLStudio by select
       sqlite> 
  ```
 
-A version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/master-query-output.csv)
+A version of the query output is found here: [master-query-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/master-query-output.csv)
   
 ## Comments
 
