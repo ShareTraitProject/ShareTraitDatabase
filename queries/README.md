@@ -8,7 +8,7 @@ currently, this folder contains the following files, last modified on 2025-07-23
 
 | file name | desc | link | version |
 | --- | --- | --- | --- |
-| queries-test-v20240909.d | questions based on expert discussion meeting 12-09-2024 | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/queries/queries-test-v20240909.md) | 20240913 |
+| queries-test-v20240909.md | questions based on expert discussion meeting 12-09-2024 | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/queries/queries-test-v20240909.md) | 20240913 |
 
 
 > [!NOTE] 
