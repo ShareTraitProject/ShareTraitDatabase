@@ -18,7 +18,7 @@ The sharetrait database v1 folder contains the following subfolders:
 
 ## folder overview
 
-SharetraitDatabase v1 [repo](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1) contains the following structure and files list
+SharetraitDatabase v1 [repo](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1) contains the following structure and files list
 ```
 ShareTraitProject/
 ├── other-repos
