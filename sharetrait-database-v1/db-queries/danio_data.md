@@ -61,11 +61,11 @@ You can also of course view this data select directly in the SQLStudio by select
       sqlite> 
  ```
 
-A version of the query output is found here: [danio_data-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/danio_data-output.csv)
+A version of the query output is found here: [danio_data-output.csv](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/danio_data-output.csv)
   
 ## Comments
 
-- A dataset in sharetratait database version 1.0 include and you can query and view data from datasets that are also not published. Please read the type attributes [columns attributes from the sharetrait tables](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) that you can add in the select and add them in your query. 
+- A dataset in sharetratait database version 1.0 include and you can query and view data from datasets that are also not published. Please read the type attributes [columns attributes from the sharetrait tables](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv) that you can add in the select and add them in your query. 
 ---
 
 [^1]: Export SQLite database to a CSV file using SQliteStudio: https://www.sqlitetutorial.net/sqlite-export-csv/
