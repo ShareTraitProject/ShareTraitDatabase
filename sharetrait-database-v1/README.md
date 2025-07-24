@@ -1,6 +1,6 @@
 # ShareTrait DataBase (STDB) SQL version 1.2.0
 
-## prerequirements
+## pre-requirements
 
 - please follow the instructions found in db-export folder for using sharetrait db locally.
 
@@ -14,6 +14,7 @@ The sharetrait database v1 folder contains the following subfolders:
 - db-queries: queries based on biological questions
 - db-tables: list of csv files containing the values to import and mapping to the sharetrait tables
 - db-publish: list of documentation used for publications linked to sharetrait-database-v1
+- db-tools: list of py scripts for creating the database
 
 ## folder overview
 
@@ -24,6 +25,8 @@ ShareTraitProject/
 ├── ShareTraitDatabase/
 |   ├── README.md
 |   ├── LICENSE
+|   ├── CONTRIBUTORS
+|   ├── CITATION.cff
 |   ├── other-development-folders
 │   ├── sharatrait-database-v1.0/
 │   │   ├── db-documentation/
@@ -43,8 +46,8 @@ ShareTraitProject/
 │   │       ├── README.md
 │   │   ├── db-tables/
 │   │       ├── acclimation_describe.csv
-│   │       ├── acclimation-specification.csv
-│   │       ├── chamber-describe.csv
+│   │       ├── acclimation_specification.csv
+│   │       ├── chamber_describe.csv
 │   │       ├── condition.csv
 │   │       ├── contains.csv
 │   │       ├── dataset.csv
@@ -77,4 +80,4 @@ ShareTraitProject/
 ```
 ### other
 
-for any more information regarding the files shared, please contact Irene
+for any more information regarding the files shared, please contact Irene (@irenemartorelli)
