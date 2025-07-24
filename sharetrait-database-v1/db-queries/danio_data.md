@@ -14,7 +14,7 @@ Description: searchers for all the datasets that specified a population belongin
 
 ## Query template
 
-This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. More informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharatrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
+This query template can be used directly from the sqlite3 window prompt or SQLiteStudio. More informartion how to query from the two options, please read our description [#how-to-access-and-use-the-db](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/sharetrait-database-v1/db-export/README.md#how-to-access-and-use-the-db)
 
 ```sql
 Select distinct dataset.dataset_pk, dataset.title_dataset, dataset.dataset_publisher, dataset.doi_dataset, dataset.year_publication, population.species_reported, measurement.trait_type
