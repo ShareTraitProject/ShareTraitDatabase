@@ -25,4 +25,4 @@ all db versions were exported by using SQLiteStudio v3.4.4
 - current web application [#syncing-with-sharetraitdatabase](https://github.com/ShareTraitProject/ShareTraitWebsite?tab=readme-ov-file#syncing-with-sharetraitdatabase) refers to development version (Syncing with ShareTraitDatabase) having url ../ShareTraitDatabase/db/stdb-all/stdb-all-v1.0.0.db. Please refer to the release version database `sharatrait-database-v1`
 
 > [!NOTE] 
-Please note that this db folder contains development versions of the database. For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
+Please note that this db folder contains development versions of the database. For the latest version, please refer to the latest database release folder. Current: [sharetrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
