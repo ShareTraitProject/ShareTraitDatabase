@@ -22,7 +22,7 @@ The components refer to the tables and field characteristics of the tables const
 ### definition of headers in file sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv
 
 - file name: `ShareTrait-database-attributes-definition.csv`
-- file url: https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv
+- file url: [github-ref](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv)
 - file description:
   
 | column_name | column_definition |
