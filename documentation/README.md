@@ -22,4 +22,4 @@ currently, this folder contains the following documents, last modified on 2025-0
 
 
 > [!NOTE] 
-Please note that this document folder contains development versions and drafts of the documentation for sharetrait. For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1), last modified on 2025-07-23
+Please note that this document folder contains development versions and drafts of the documentation for sharetrait. For the latest version, please refer to the latest database release folder. Current: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1), last modified on 2025-07-23
