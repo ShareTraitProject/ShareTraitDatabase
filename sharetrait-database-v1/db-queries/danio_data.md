@@ -8,7 +8,7 @@
 
 ## Query Reference
 
-Name : [danio_data.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-queries/danio_data.sql)
+Name : [danio_data.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/danio_data.sql)
 
 Description: searchers for all the datasets that specified a population belonging to the Danio group. It also specifies which of these datasets are published in available repositories and which type of trait does the study deal with?
 
