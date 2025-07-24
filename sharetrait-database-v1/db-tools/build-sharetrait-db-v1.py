@@ -5,7 +5,7 @@ Irene Martorelli (@imartorelli)
 Vrije Amsterdam Universiteit (VU)
 
 Permission to use, modify, and distribute this software is given under the
-terms of the STDB (BSD style) license. See LICENSE that came with
+terms of the BSD 2-Clause License. See LICENSE document that came with
 this distribution for specifics.
 
 NO WARRANTY IS EXPRESSED OR IMPLIED.  USE AT YOUR OWN RISK.
@@ -15,13 +15,13 @@ import sqlite3
 import pandas as pd
 import os
 
-# Connect to SQLite database 
-db_name = "sharetrait-db-test.db"
+# Connect to SQLite database - we give it a name
+db_name = "ST_all.db"
 table_folder = "table-folder"
 conn = sqlite3.connect(db_name)
 cursor = conn.cursor()
 
-# Recreate tables (first drop if exist)
+# --- Recreate the 21 tables (first drop if exist) ---
 cursor.executescript("""
 DROP TABLE IF EXISTS trait;
 DROP TABLE IF EXISTS individual;
@@ -430,13 +430,14 @@ CREATE TABLE IF NOT EXISTS taxonomic_label (
 );
 """)
 
-# Insert csv content in table template
+# --- Upload the data contained in the table-folder ---
 cursor.execute("PRAGMA foreign_keys = OFF;")
 
-# Loop through all CSV files in the folder
+# loop through all CSV files found in the folder, this will ignore the README.md file
+# this version does check if the table name is the same as the csv file name
 for file in os.listdir(table_folder):
     if file.endswith(".csv"):
-        table_name = file[:-4]  # Strip '.csv' to get the table name
+        table_name = file[:-4]  # strip '.csv' to get the table name
         csv_path = os.path.join(table_folder, file)
 
         try:
@@ -446,39 +447,59 @@ for file in os.listdir(table_folder):
         except Exception as e:
             print(f"Error importing {file} into '{table_name}': {e}")
 
-# Re-enable foreign key enforcement if desired
+# re-enable foreign key enforcement if desired
 cursor.execute("PRAGMA foreign_keys = ON;")
 
-# commit and close the db version
-conn.commit()
-conn.close()
-
+# --- At this stage the complete STDB_all.db is created ---
 print("Database v1.0 created and populated with Sharetrait data.")
 
-print("Now we test the database with a query")
+# --- At this stage onwards we check if a query test works and actually fetches data from the new local db version ---
+# for more query templates to test please take a look at: https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-queries
+# for running queries against the database, please take a look at the documentation: 
+print("Now we test the database with a few queries")
 
-conn = sqlite3.connect(db_name)
-cursor = conn.cursor()
 
-# ... your table creation and CSV import code ...
-
-# --- TEST QUERY EXAMPLE ---
-print("\n--- TEST QUERY: Measurements with Trait Info ---")
-try:
-    query = """
+query_trait_measure = """
     SELECT i.individual_pk, t.trait_name, m.trait_value, m.trait_unit, m.measure_date
     FROM measurement m
     JOIN individual i ON m.individual_pk = i.individual_pk
     JOIN trait t ON m.trait_pk = t.trait_pk
     LIMIT 10;
     """
+
+query_dataset_species = """
+   SELECT distinct dataset.dataset_pk, dataset.title_dataset, dataset.dataset_publisher, dataset.doi_dataset, dataset.year_publication, population.species_reported, measurement.trait_type
+   from dataset, describe, population, taxonomic_label, ref_taxonomy, contains, individual, measurement
+   where ref_taxonomy.genus_name = "Danio" AND ref_taxonomy.taxonomy_pk = taxonomic_label.taxonomy_pk AND taxonomic_label.population_pk = population.population_pk AND population.population_pk = describe.population_pk AND describe.dataset_pk = dataset.dataset_pk
+   AND population.population_pk = contains.population_pk AND contains.individual_pk = individual.individual_pk AND individual.individual_pk = measurement.individual_pk
+   LIMIT 10;
+   """
+
+# --- TEST QUERY EXAMPLE MEASUREMENT---
+print("\n--- TEST QUERY: This is a test query, so see if I am able to retrieve data from your database version running locally, Measurements with Trait Info ---")
+try:
+    query = query_trait_measure
     results = cursor.execute(query).fetchall()
     for row in results:
         print(row)
 except Exception as e:
     print("Query failed:", e)
 
+# --- TEST QUERY EXAMPLE POPULATION---
+# query copied from https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-export
+print("\n--- TEST QUERY: This is a test query, so see if I am able to retrieve data from your database version running locally, Datasets describing Danio species ---")
+try:
+    query = query_dataset_species
+    results = cursor.execute(query).fetchall()
+    for row in results:
+        print(row)
+except Exception as e:
+    print("Query failed:", e)
+
+print("\nQUERY TESTS COMPLETED")
+print("Have fun using the database v1.0. \nFor more inspiration, take a look at our set of query examples found in our repo: https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-queries")
+
+# commit and close the db version
 conn.commit()
 conn.close()
 
-print("test completed")
