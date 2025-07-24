@@ -46,8 +46,8 @@ ShareTraitProject/
 │   │       ├── README.md
 │   │   ├── db-tables/
 │   │       ├── acclimation_describe.csv
-│   │       ├── acclimation-specification.csv
-│   │       ├── chamber-describe.csv
+│   │       ├── acclimation_specification.csv
+│   │       ├── chamber_describe.csv
 │   │       ├── condition.csv
 │   │       ├── contains.csv
 │   │       ├── dataset.csv
