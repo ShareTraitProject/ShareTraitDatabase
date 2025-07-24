@@ -11,7 +11,7 @@
 
 Name : [master-query.sql](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-queries/master-query.sql)
 
-Description: selects all the mapping items found in [shatrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
+Description: selects all the mapping items found in [sharetrait db attribute mapping to sharetrait_dataset_col_name](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv) and connects all the tables listed in [db table overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
 
 ## Query template
 
