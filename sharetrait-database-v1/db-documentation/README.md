@@ -22,7 +22,7 @@ The components refer to the tables and field characteristics of the tables const
 ### definition of headers in file sharatrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv
 
 - file name: `ShareTrait-database-attributes-definition.csv`
-- file url: [github-ref](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv)
+- file url: [github-ref-definition](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-attributes-definition.csv)
 - file description:
   
 | column_name | column_definition |
@@ -40,7 +40,7 @@ The components refer to the tables and field characteristics of the tables const
 ### definition of headers in sharatrait-database-v1/db-documentation/ShareTrait-database-overview.csv
 
 - file name: `ShareTrait-database-overview.csv`
-- file url: https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv
+- file url: [github-ref-overview](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-tables-overview.csv)
 - file description:
   
 | column_name | column_definition |
@@ -53,7 +53,7 @@ The components refer to the tables and field characteristics of the tables const
 ### definition of headers in sharatrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv
 
 - file name: `ShareTrait-dataset-database-mapping.csv`
-- file url: https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv
+- file url: [github-ref-mapping](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-dataset-database-mapping.csv)
 - file description:
   
 | column_name | column_definition |
@@ -64,7 +64,7 @@ The components refer to the tables and field characteristics of the tables const
 ### definition of annotation used in sharatrait-database-v1/db-documentation/ShareTrait-database-schema-v1.png
 
 - file name: `ShareTrait-database-schema-v1.png`
-- file url: https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharatrait-database-v1/db-documentation/ShareTrait-database-schema-v1.png
+- file url: [github-ref-schema](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-schema-v1.png)
 - file description:
 the annotations and constraints provided in the schema refer to the complete documentation description in [ShareTrait-database-documentation-v20250723.pdf](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-documentation/ShareTrait-database-documentation-v20250723.pdf)
 
