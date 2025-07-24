@@ -48,7 +48,7 @@ Hereby we describe the general content found for each folder of the directory. P
 | documentation | definitions and description of the ER model | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/documentation) | 2024-08-01 |
 | mappings | mappings for aligning db attributes to sharetrait previous versions | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/mappings)| 2024-11-05 |
 | queries | questions queries mapping for selecting data | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/queries) | 2024-09-13 |
-| sharetrait-database-v1 | v1.0.0 of sharetrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1) | 2024-11-18 |
+| sharetrait-database-v1 | v1.0.0 of sharetrait database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1) | 2024-11-18 |
 | tables | list of data files to populate database | [link](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/tables) | 2024-11-04 |
 
 
