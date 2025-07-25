@@ -1,20 +1,18 @@
-# ShareTrait DataBase (STDB) SQL version 1.2.0
+# ShareTrait DataBase (STDB) SQL (version 1.2.0)
 
 ## pre-requirements
 
-- please follow the instructions found in db-export folder for using sharetrait db locally.
+- please follow the instructions found in [db-export](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-export) folder for using sharetrait db locally.
 
-## content for sharetrait database db-version 1.2.0 folder : sharatrait-database-v1/
-<!---
-Please make sure you update sharetrait database version 1.0 to database version 1.2.0 which will be the one to publish on zenodo
--->
+## content for sharetrait database db-version 1.2.0 folder : [sharetrait-database-v1/](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1)
+
 The sharetrait database v1 folder contains the following subfolders:
-- db-documentation: documentation, schema design and db components definition, mappings to sharetrait dataset
-- db-export: sharetrait sql format db version 1.0.0
-- db-queries: queries based on biological questions
-- db-tables: list of csv files containing the values to import and mapping to the sharetrait tables
-- db-publish: list of documentation used for publications linked to sharetrait-database-v1
-- db-tools: list of py scripts for creating the database
+- [db-documentation](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-documentation): documentation, schema design and db components definition, mappings to sharetrait dataset
+- [db-export](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-export): sharetrait sql format db version 1.0.0
+- [db-queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-queries): queries based on biological questions
+- [db-tables](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-tables): list of csv files containing the values to import and mapping to the sharetrait tables
+- [db-publish](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-publish): list of documentation used for publications linked to sharetrait-database-v1
+- [db-tools](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1/db-tools): list of py scripts for creating the database
 
 ## folder overview
 
@@ -75,6 +73,10 @@ ShareTraitProject/
 │   │           ├── README.md
 │   │           ├── CITATION.cff
 │   │       ├── README.md
+│   │   ├── db-tools/
+│   │           ├── README.md
+│   │           ├── LICENSE
+│   │           ├── build-sharetrait-db-v1.py
 
 ---
 ```
