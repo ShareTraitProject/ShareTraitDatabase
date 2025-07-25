@@ -57,4 +57,4 @@ Hereby we describe the general content found for each folder of the directory. P
 > [!NOTE] 
 Please note that this repository is active.
 > For the latest version, please refer to the latest database release folder 
-Current version: [sharatrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1), last modified on 2025-07-23
+Current version: [sharetrait-database-v1](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharetrait-database-v1), last modified on 2025-07-23
