@@ -8,6 +8,7 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
 # How to access and use the db 
 1. [SQLiteStudio](#sqlitestudio)
 2. [SQLite](#sqlite)
+3. [Python](#python)
 
 ## SQLiteStudio
 
@@ -142,7 +143,12 @@ The first option is by importing the current version in a [SQLiteStudio](https:/
       
       This will save the table dataset of sharetrait into selected_dataset.csv in a specific path you specify. Use the queries and the outputs found in the [query folder](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/sharatrait-database-v1/db-queries). More examples and inspiration were obtained from the [^1] and [^3] references.
 
-   
+## Python
+
+- Download: make sure you have python installed in your system. Go to [Python Download page](https://www.python.org/downloads/) to download the latest version.
+- Follow the instructions of how to run the python script in the essential specific [tools](https://github.com/ShareTraitProject/ShareTraitDatabase/blob/main/sharetrait-database-v1/db-tools/README.md) section to create and start using the database in your computer.
+
+  
 ## Futher useful reads
 
 - [Getting Started with SQLite](https://medium.com/@techwithjulles/list/getting-started-with-sqlite-dbc1bf2c4a04)
