@@ -29,7 +29,7 @@ ShareTraitProject/
 │   ├── sharatrait-database-v1.0/
 │   │   ├── db-documentation/
 │   │       ├── ShareTrait-database-attributes-definition.csv
-│   │       ├── ShareTrait-database-documentation-v20241108.pdf
+│   │       ├── ShareTrait-database-documentation-v20250723.pdf
 │   │       ├── ShareTrait-database-schema-v1.png
 │   │       ├── ShareTrait-database-tables-overview.csv
 │   │       ├── ShareTrait-dataset-database-mapping.csv
