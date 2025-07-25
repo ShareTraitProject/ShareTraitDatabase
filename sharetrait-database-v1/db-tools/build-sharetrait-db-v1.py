@@ -1,27 +1,29 @@
 """
 ShareTraitDatabase - sharetrait-database-v1 
 
-Irene Martorelli (@imartorelli)
-Vrije Amsterdam Universiteit (VU)
+author: Irene Martorelli (@imartorelli)
+affiliation: Vrije Amsterdam Universiteit (VU)
 
 Permission to use, modify, and distribute this software is given under the
-terms of the BSD 2-Clause License. See LICENSE document that came with
-this distribution for specifics.
+terms of the BSD 2-Clause License. See the LICENSE file provided with this
+distribution for details.
 
-NO WARRANTY IS EXPRESSED OR IMPLIED.  USE AT YOUR OWN RISK.
+This software is provided without any warranty, express or implied. Please 
+use it responsibly and at your own risk.
+
 Irene Martorelli
 """
 import sqlite3
 import pandas as pd
 import os
 
-# Connect to SQLite database - we give it a name
+# Connect to SQLite database - we provide you with the db alias of this repo.
 db_name = "ST_all.db"
 table_folder = "table-folder"
 conn = sqlite3.connect(db_name)
 cursor = conn.cursor()
 
-# --- Recreate the 21 tables (first drop if exist) ---
+# --- Recreate the 21 tables of the tables folder (first drop if exist) ---
 cursor.executescript("""
 DROP TABLE IF EXISTS trait;
 DROP TABLE IF EXISTS individual;
@@ -433,8 +435,8 @@ CREATE TABLE IF NOT EXISTS taxonomic_label (
 # --- Upload the data contained in the table-folder ---
 cursor.execute("PRAGMA foreign_keys = OFF;")
 
-# loop through all CSV files found in the folder, this will ignore the README.md file
-# this version does check if the table name is the same as the csv file name
+# loop through all CSV (table) files found in the tables folder, this will ignore the README.md file
+# this version also checks if the table name is the same as the csv file name
 for file in os.listdir(table_folder):
     if file.endswith(".csv"):
         table_name = file[:-4]  # strip '.csv' to get the table name
@@ -458,7 +460,7 @@ print("Database v1.0 created and populated with Sharetrait data.")
 # for running queries against the database, please take a look at the documentation: 
 print("Now we test the database with a few queries")
 
-
+# query templates selected
 query_trait_measure = """
     SELECT i.individual_pk, t.trait_name, m.trait_value, m.trait_unit, m.measure_date
     FROM measurement m
