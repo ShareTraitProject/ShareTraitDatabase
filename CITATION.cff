@@ -1,0 +1,59 @@
+# YAML 1.2
+---
+cff-version: "1.2.0"
+message: "If you use this software, please cite it using the information provided in this metadata."
+authors:
+  -
+    given-names: Irene
+    family-names: Martorelli
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0009-0000-3860-9290"
+  -
+    given-names: "Brett G."
+    family-names: Olivier
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0000-0002-5293-5321"
+  -
+    given-names: Raimon
+    family-names: "Cuxart-Erruz"
+    affiliation: "Martin Luther University Halle-Wittenberg"
+    orcid: "https://orcid.org/0009-0004-1885-2022"
+  -
+    given-names: "Félix P."
+    family-names: Leiva
+    affiliation: "Radboud University Nijmegen"
+    orcid: "https://orcid.org/0000-0003-0249-9274"
+  -
+    given-names: "Matty P."
+    family-names: Berg
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0000-0001-8442-8503"
+  -
+    given-names: Jacintha
+    family-names: Ellers
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0000-0003-2665-1971"
+  -
+    given-names: "Wilco C.E.P."
+    family-names: Verberk
+    affiliation: "Radboud University Nijmegen"
+    orcid: "https://orcid.org/0000-0002-0691-583X"
+title: "ShareTraitDatabase"
+version: "1.2.0"
+repository-code: "https://github.com/ShareTraitProject/ShareTraitDatabase"
+date-released: 2025-05-25
+doi: ""
+license: "CC-BY-4.0"
+abstract: "ShareTrait DataBase (STDB) SQL – version 1.2.0 includes the schema, data tables, queries, and scripts needed to set up the ShareTrait database locally. It supports trait-based research by organizing trait, taxon, and experimental data in a structured format. Documentation and setup instructions are included in this repository."
+keywords:
+  - database
+  - "data integration"
+  - trait
+  - standards
+  - measurement
+  - experiment
+  - organism
+  - speciees
+  - population
+  - observation
+...
