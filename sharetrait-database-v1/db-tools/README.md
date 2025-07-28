@@ -1,6 +1,7 @@
 # build-sharetrait-db : building and running the sharetrait database v1
 
-`build-sharetrait-db.py` creates a local version of the database template and imports all the data tables in the database. The purpose of `build-sharetrait-db.py` is to run a local version of sharetrait database version 1.0. 
+`build-sharetrait-db.py` creates a local version of the database template and imports all the data tables in the database. 
+The purpose of `build-sharetrait-db.py` is to run a local version of sharetrait database version 1.0. 
 This document explains how to set up and build the sharetrait-database-v1 in your desktop.
 
 ---
@@ -53,7 +54,7 @@ The script also uses sqlite3 and os, which are included in Python’s standard l
 2. Run the script
 
   ```bash
-  python3 build-sharetrait-db.v1.py
+  python3 build-sharetrait-db-v1.py
   ```
 
 The script will create the full database `ST_all.db` and read the tables and import them in the database. 
