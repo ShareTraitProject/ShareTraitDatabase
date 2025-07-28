@@ -41,7 +41,7 @@ authors:
 title: "ShareTraitDatabase"
 version: "1.2.0"
 repository-code: "https://github.com/ShareTraitProject/ShareTraitDatabase"
-date-released: 2025-05-25
+date-released: 2025-07-25
 doi: ""
 license: "CC-BY-4.0"
 abstract: "ShareTrait DataBase (STDB) SQL – version 1.2.0 includes the schema, data tables, queries, and scripts needed to set up the ShareTrait database locally. It supports trait-based research by organizing trait, taxon, and experimental data in a structured format. Documentation and setup instructions are included in this repository."
