@@ -2,15 +2,30 @@
 
 This repository contains the ShareTrait DataBase (STDB) SQL of [ShareTrait Project Data](https://github.com/ShareTraitProject) 
 
+## Latest release version
+Last modified: 2025-09-25
+
+The most recent release of this repository is archived in [Zenodo](https://zenodo.org).  
+
+- **Release Title:** sharetrait-db v1.0.0 
+- **Version:** v1.0.0  
+- **Database Reference:** ShareTraitDatabase 
+- **Release DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16537297.svg)](https://doi.org/10.5281/zenodo.16537297)  
+- **GitHub Release:** [![GitHub Release](https://img.shields.io/github/v/release/ShareTraitProject/ShareTraitDatabase?color=blue&logo=github)](https://github.com/ShareTraitProject/ShareTraitDatabase/releases/tag/v1.0.0)  
+
+This release snapshot contains the validated dataset, metadata, and code associated with version **v1.0.0**.  
+Please use the **DOI** when citing this resource in publications.
+
 ## Repository Structure
 
 The SharetraitDatabase repository is structured as follows. Only the ShareTraitDatabase repository is described
 
 ```
 ShareTraitProject/
-├── other-repos
+├── ShareTrait
 ├── ShareTraitDatabase/
 |   ├── README.md
+|   ├── CITATION.cff
 |   ├── CONTRIBUTORS
 |   ├── LICENSE
 |   ├── db
@@ -25,13 +40,13 @@ ShareTraitProject/
 │   │   ├── dataset-db-attributes-mapping-v1/
 │   │   ├── README.md
 |   ├── queries
-|   ├── mappings
 │   ├── sharatrait-database-v1/
 │   │   ├── db-documentation/
 │   │   ├── db-export/
+│   │   ├── db-publish/
 │   │   ├── db-queries/
 │   │   ├── db-tables/
-│   │   ├── db-export/
+│   │   ├── db-tools/
 |   ├── tables
 
 ---
@@ -39,7 +54,9 @@ ShareTraitProject/
 
 ## Repository general description
 
-Hereby we describe the general content found for each folder of the directory. Please make sure you look at the README.md of each folder for more information regarding the content of the files in the folders
+Hereby we describe the general content found for each folder of the directory. Please make sure you look at the **README.md** of each folder for more information regarding the content of the files in the folders.
+
+
 
 | folder name | description | link | last modified |
 | :--- | :--- | :--- | :--- | 
