@@ -1,6 +1,6 @@
 # ShareTrait DataBase SQL
 
-This repository contains the ShareTrait DataBase (STDB) SQL of [ShareTrait Project Data](https://github.com/ShareTraitProject) 
+This repository contains the ShareTrait DataBase (STDB) SQL of [ShareTrait Project](https://github.com/ShareTraitProject)
 
 ## Latest release version
 Last modified: 2025-09-25
