@@ -16,7 +16,7 @@ The most recent release of this repository is archived in [Zenodo](https://zenod
 This release snapshot contains the validated dataset, metadata, and code associated with version **v1.0.0**.  
 Please use the **DOI** when citing this resource in publications.
 
-:memo: Please take a look at the [general-release-version-overview](https://github.com/ShareTraitProject/ShareTraitDatabase/edit/main/README.md#general-release-version-overview) section for the overview of the information found in this release
+:memo: Please take a look at the [#general-release-version-overview](https://github.com/ShareTraitProject/ShareTraitDatabase?tab=readme-ov-file#general-release-version-overview) section for the overview of the information found in this release
 
 ## Repository Structure
 
