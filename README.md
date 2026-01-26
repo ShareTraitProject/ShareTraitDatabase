@@ -61,7 +61,7 @@ Hereby we describe the general content found for each folder of the directory. P
 | folder name | description | last modified |
 | :--- | :--- | :--- | 
 | [db](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/db) | sharetrait database sql test versions  | 2024-06-12 |
-| [diagrams](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/diagram) | database sketch backup schemas and models versions | 2024-08-18 |
+| [diagrams](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/diagrams) | database sketch backup schemas and models versions | 2024-08-18 |
 | [documentation](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/documentation) | definitions and description of the ER model | 2024-08-01 |
 | [mappings](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/mappings) | mappings for aligning db attributes to sharetrait previous versions | 2024-11-05 |
 | [queries](https://github.com/ShareTraitProject/ShareTraitDatabase/tree/main/queries) | questions queries mapping for selecting data | 2024-09-13 |
