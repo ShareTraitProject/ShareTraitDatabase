@@ -449,6 +449,25 @@ CREATE TABLE IF NOT EXISTS trait (
     trait_unit              VARCHAR (30) 
 );
 
+-- Table: contains
+DROP TABLE IF EXISTS contains;
+
+CREATE TABLE IF NOT EXISTS contains (
+    population_pk VARCHAR (30) NOT NULL,
+    individual_pk VARCHAR (30) NOT NULL,
+    PRIMARY KEY (
+        population_pk,
+        individual_pk
+    ),
+    FOREIGN KEY (
+        population_pk
+    )
+    REFERENCES population (population_pk),
+    FOREIGN KEY (
+        individual_pk
+    )
+    REFERENCES individual (individual_pk) 
+);
 
 COMMIT TRANSACTION;
 PRAGMA foreign_keys = on;
